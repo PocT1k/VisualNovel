@@ -4,8 +4,13 @@ from load import *
 
 
 def run():
-    loadingMenu()
     pygame.init()
+    window = createWindow()
+    data = loading(window)
+
+    #window.blit(dataMenu['background'], (0, 0))
+    pygame.display.update()
+
     # Ожидаем закрытия окна
     running = True
     while running:
@@ -16,5 +21,5 @@ def run():
     pygame.quit()
 pass
 
-# if __name__ == '__main__':
-#     run()
+if __name__ == '__main__':
+    run()
