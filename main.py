@@ -10,12 +10,6 @@ def run():
     window = createWindow()
     data = loading(window)
 
-    white = (255, 255, 255)
-    font = pygame.font.Font(None, 36)
-    text = font.render("Начать", True, white)
-    window.blit(text, (200, 300))
-    pygame.display.update()
-
     running = True
     while running:
         for event in pygame.event.get():

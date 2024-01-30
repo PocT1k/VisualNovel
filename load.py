@@ -1,10 +1,12 @@
 import pygame
 
 from structs import *
+from scenes import *
 
 
 def createWindow():
-    window = pygame.display.set_mode((1280, 720)) #1920 1080
+    #window = pygame.display.set_mode((1280, 720)) #1920 1080
+    window = pygame.display.set_mode((1920, 1080))
     #window = pygame.display.set_mode((0, 0), pygame.FULLSCREEN)
     pygame.display.set_caption("Новогодний рассказ")
     bg_color = (180, 215, 245)
@@ -32,7 +34,8 @@ def loadMenu(window, data):
     ]
     partialPictures = [
         'buttomDarkBrown',
-        'lightDarkBrown'
+        'lightDarkBrown',
+        'ODINart'
     ]
 
     for picture in fullPictures:
@@ -40,12 +43,18 @@ def loadMenu(window, data):
     for picture in partialPictures:
         loadImagine(dictionary, window, path, picture, '.png', True)
 
-    dictionary['background'].show()
-    dictionary['buttomDarkBrown'].show()
-    pygame.display.update()
+    dictionary['textMenu'] = TextMenu(window, 'НАЧАТЬ')
+
+    controlMenu(window, data)
 pass
 
+
+
 def loadAll():
+    # Меню mn - грузится отдельно
+    # Текст tx - грузится отдельно
+
+
     # Ресурсы rs
 
     # Фоны bg
