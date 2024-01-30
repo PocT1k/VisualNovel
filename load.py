@@ -1,9 +1,11 @@
 import pygame
 
+from structs import *
+
 
 def createWindow():
-    # window = pygame.display.set_mode((720, 720))
-    window = pygame.display.set_mode((0, 0), pygame.FULLSCREEN)
+    window = pygame.display.set_mode((1280, 720)) #1920 1080
+    #window = pygame.display.set_mode((0, 0), pygame.FULLSCREEN)
     pygame.display.set_caption("Новогодний рассказ")
     bg_color = (180, 215, 245)
     window.fill(bg_color)
@@ -12,43 +14,63 @@ def createWindow():
     return window
 pass
 
-def loading(window):
-    data = loadingMenu()
-    return data
+def loadImagine(dictionary, window, path, picture, ext, partial=False, alpha=False):
+    if partial:
+        dictionary[picture] = PartialPicture(window, path, picture, ext, alpha)
+    else:
+        dictionary[picture] = FullPicture(window, path, picture, ext)
 pass
 
-def loadingMenu():
+def loadMenu(window, data):
+    data['menu'] = dict()
+    dictionary = data['menu']
     path = 'resources/images/menu/'
 
-    data = {
-        'menu': {
-            'background': pygame.image.load(path + 'background.png')
-        }
-    }
+    # Перечисление данных для меню
+    fullPictures = [
+        'background'
+    ]
+    partialPictures = [
+        'buttomDarkBrown',
+        'lightDarkBrown'
+    ]
 
-    return data
+    for picture in fullPictures:
+        loadImagine(dictionary, window, path, picture, '.png')
+    for picture in partialPictures:
+        loadImagine(dictionary, window, path, picture, '.png', True)
+
+    dictionary['background'].show()
+    dictionary['buttomDarkBrown'].show()
+    pygame.display.update()
 pass
 
-def loadingResources():
+def loadAll():
+    # Ресурсы rs
+
+    # Фоны bg
+
+    # Сценки cg
+
+    # Спрайты sp
+
+    # Персонажи cs
+
+
+    # sound
+    # Музыка mus
+
+    # Звуки sfx
+
+    # Эмбиент amb
+
+
+    # Сценарий txt
     pass
-    # Ресурсы
+pass
 
-    # Фоны
-
-    # Сценки
-
-    # Спрайты
-
-    # Персонажи
-
-
-    # Музыка
-
-    # Звуки
-
-    # Эмбиент
-
-
-    # Сценарий
-
+def loading(window):
+    data = dict()
+    loadMenu(window, data)
+    return data
 pass
