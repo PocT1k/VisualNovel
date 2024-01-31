@@ -1,12 +1,14 @@
 import pygame
+import time
 
 from structs import *
 from scenes import *
 
 
 def createWindow():
-    #window = pygame.display.set_mode((1280, 720)) #1920 1080
-    window = pygame.display.set_mode((1920, 1080))
+    #window = pygame.display.set_mode((1400.1, 720.2))  # 1920 1080
+    window = pygame.display.set_mode((1400, 720)) #1920 1080
+    #window = pygame.display.set_mode((1920, 1080))
     #window = pygame.display.set_mode((0, 0), pygame.FULLSCREEN)
     pygame.display.set_caption("Новогодний рассказ")
     bg_color = (180, 215, 245)
@@ -16,9 +18,9 @@ def createWindow():
     return window
 pass
 
-def loadImagine(dictionary, window, path, picture, ext, partial=False, alpha=False):
+def loadImagine(dictionary, window, path, picture, ext, partial = False):
     if partial:
-        dictionary[picture] = PartialPicture(window, path, picture, ext, alpha)
+        dictionary[picture] = PartialPicture(window, path, picture, ext)
     else:
         dictionary[picture] = FullPicture(window, path, picture, ext)
 pass
@@ -34,8 +36,8 @@ def loadMenu(window, data):
     ]
     partialPictures = [
         'buttomDarkBrown',
-        'lightDarkBrown',
-        'ODINart'
+        'buttomLightBrown',
+        'logoODINart'
     ]
 
     for picture in fullPictures:
@@ -43,9 +45,11 @@ def loadMenu(window, data):
     for picture in partialPictures:
         loadImagine(dictionary, window, path, picture, '.png', True)
 
-    dictionary['textMenu'] = TextMenu(window, 'НАЧАТЬ')
+    dictionary['buttomLightBrown'].picture.set_alpha(8)
+    dictionary['textStart'] = TextMenu(window, 'НАЧАТЬ')
+    dictionary['textLoading'] = TextMenu(window, 'ЗАГРУЗКА')
 
-    controlMenu(window, data)
+    runMenu(window, data)
 pass
 
 

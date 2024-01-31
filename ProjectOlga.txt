@@ -1,0 +1,2397 @@
+#Кривойкодервозвращается
+#ОБОЖЕМОЙЭТОМОДНЕПРОУЛЬЯНУ!!!11
+#Пропадалцелыйгодвоттебеновыймод
+#Суровыйандерграундлетосферы
+
+init:
+    
+#Ресурсы    
+    
+
+#Музыка 
+    $ olm_oldfag = "mods/OlgaModbySummertime/resources/music/olm_oldfag.mp3"
+    $ olm_newstart = "mods/OlgaModbySummertime/resources/music/olm_newstart.mp3"
+    $ olm_groza_run = "mods/OlgaModbySummertime/resources/music/olm_groza_run.mp3"
+    $ olm_miami_high = "mods/OlgaModbySummertime/resources/music/olm_miami_high.mp3"
+    $ olm_rockmorning = "mods/OlgaModbySummertime/resources/music/olm_rockmorning.mp3"
+    $ olm_eveningsong = "mods/OlgaModbySummertime/resources/music/olm_eveningsong.mp3"
+    $ olm_grkino = "mods/OlgaModbySummertime/resources/music/olm_grkino.mp3"
+    $ olm_chaplin = "mods/OlgaModbySummertime/resources/music/olm_chaplin.mp3"
+    $ olm_romantic_1 = "mods/OlgaModbySummertime/resources/music/olm_romantic_1.mp3"
+    $ olm_action_1 = "mods/OlgaModbySummertime/resources/music/olm_action_1.mp3"
+    $ olm_romantic_2 = "mods/OlgaModbySummertime/resources/music/olm_romantic_2.mp3"
+    $ olm_romantic_slavya = "mods/OlgaModbySummertime/resources/music/olm_romantic_slavya.mp3"
+    $ olm_romantic_slavya = "mods/OlgaModbySummertime/resources/music/olm_romantic_slavya.mp3"
+
+#Звуки
+    $ sfx_louvre_paparazzi = "mods/OlgaModbySummertime/resources/sounds/sfx/sfx_louvre_paparazzi.mp3"
+    $ sfx_micro_noise = "mods/OlgaModbySummertime/resources/sounds/sfx/sfx_micro_noise.mp3"
+    $ sfx_ph_al = "mods/OlgaModbySummertime/resources/sounds/sfx/sfx_ph_al.wav"
+    $ sfx_dev_electroshock = "mods/OlgaModbySummertime/resources/sounds/sfx/sfx_dev_electroshock.wav"
+    $ sfx_recorder_on = "mods/OlgaModbySummertime/resources/sounds/sfx/sfx_recorder_on.wav"
+    $ sfx_heart_situation = "mods/OlgaModbySummertime/resources/sounds/sfx/sfx_heart_situation.mp3"
+    $ sfx_ovation = "mods/OlgaModbySummertime/resources/sounds/sfx/sfx_ovation.wav"
+    
+#Эмбиент
+    $ olm_amb_rain_out = "mods/OlgaModbySummertime/resources/sounds/ambience/olm_amb_rain_out.mp3"
+    $ olm_amb_rain_ext = "mods/OlgaModbySummertime/resources/sounds/ambience/olm_amb_rain_ext.mp3"
+    $ olm_amb_square = "mods/OlgaModbySummertime/resources/sounds/ambience/olm_amb_square.mp3"
+
+    
+#PNG    
+    image znak_question = "mods/OlgaModbySummertime/resources/images/other/znak_question.png"
+    image znak_question_1 = "mods/OlgaModbySummertime/resources/images/other/znak_question_1.png"
+    image znak_question_2 = "mods/OlgaModbySummertime/resources/images/other/znak_question_2.png"
+    
+
+#Фоны   
+    image bg int_louvre = "mods/OlgaModbySummertime/resources/images/bg/int_louvre.jpg"
+    image bg ext_ent_dark = "mods/OlgaModbySummertime/resources/images/bg/ext_ent_dark.jpg"
+    image bg ext_ent_pink = "mods/OlgaModbySummertime/resources/images/bg/ext_ent_pink.jpg"
+    image bg ext_beach_pink = "mods/OlgaModbySummertime/resources/images/bg/ext_beach_pink.jpg"
+    image bg ext_road_pink = "mods/OlgaModbySummertime/resources/images/bg/ext_road_pink.jpg"
+    image bg ext_square_pink = "mods/OlgaModbySummertime/resources/images/bg/ext_square_pink.jpg"
+    image bg ext_road_n_r = "mods/OlgaModbySummertime/resources/images/bg/ext_road_n_r.jpg"
+    image bg int_bus_n_r = "mods/OlgaModbySummertime/resources/images/bg/int_bus_n_r.jpg"
+    image bg ext_ent_glasses = "mods/OlgaModbySummertime/resources/images/bg/ext_ent_glasses.jpg"
+    image bg ext_ent_eve = "mods/OlgaModbySummertime/resources/images/bg/ext_ent_eve.jpg"
+    image bg ext_clubs_eve = "mods/OlgaModbySummertime/resources/images/bg/ext_clubs_eve.jpg"
+    image bg int_din_hall_suns = "mods/OlgaModbySummertime/resources/images/bg/int_din_hall_suns.jpg"
+    image bg ext_forest_miami = "mods/OlgaModbySummertime/resources/images/bg/ext_forest_miami.jpg"
+    image bg ext_house_of_se_sunset = "mods/OlgaModbySummertime/resources/images/bg/ext_house_of_se_sunset.jpg"
+    image bg int_house_of_se_sunset = "mods/OlgaModbySummertime/resources/images/bg/int_house_of_se_sunset.jpg"
+    image bg int_house_of_se_night_nolight = "mods/OlgaModbySummertime/resources/images/bg/int_house_of_se_night_nolight.jpg"
+    image bg emt_grkino = "mods/OlgaModbySummertime/resources/images/other/emt_grkino.jpg"
+    image bg se_repl_1 = "mods/OlgaModbySummertime/resources/images/other/se_repl_1.jpg"
+    image bg ext_no_bus_30s = "mods/OlgaModbySummertime/resources/images/bg/ext_no_bus_30s.jpg"
+    image bg gi_repl_1 = "mods/OlgaModbySummertime/resources/images/other/gi_repl_1.jpg"
+    image bg se_repl_2 = "mods/OlgaModbySummertime/resources/images/other/se_repl_2.jpg"
+    image bg gi_repl_2 = "mods/OlgaModbySummertime/resources/images/other/gi_repl_2.jpg"
+    image bg se_repl_3 = "mods/OlgaModbySummertime/resources/images/other/se_repl_3.jpg"
+    image bg ext_alley_night = "mods/OlgaModbySummertime/resources/images/bg/ext_alley_night.jpg"
+    image bg ext_wahouse_night = "mods/OlgaModbySummertime/resources/images/bg/ext_wahouse_night.jpg"
+    image bg int_house_of_se_day = "mods/OlgaModbySummertime/resources/images/bg/int_house_of_se_day.jpg"
+    image bg int_house_of_se_night = "mods/OlgaModbySummertime/resources/images/bg/int_house_of_se_night.jpg"
+    image bg ext_house_of_se_night = "mods/OlgaModbySummertime/resources/images/bg/ext_house_of_se_night.jpg"
+    image bg ext_wastand_sunset = "mods/OlgaModbySummertime/resources/images/bg/ext_wastand_sunset.jpg"
+    image bg ext_square_end_ch_1 = "mods/OlgaModbySummertime/resources/images/bg/ext_square_end_ch_1.jpg"
+    
+#Сценки
+    image cg semen_rech_0 = "mods/OlgaModbySummertime/resources/images/cg/semen_rech_0.png"
+    image cg semen_rech_1 = "mods/OlgaModbySummertime/resources/images/cg/semen_rech_1.png"
+    image cg semen_rech_2 = "mods/OlgaModbySummertime/resources/images/cg/semen_rech_2.png"
+    
+#Спрайты
+    image mi_sad_cas_far = "mods/OlgaModbySummertime/resources/images/sprites/mi_sad_cas_far.png"
+    image mi_happy_cas = "mods/OlgaModbySummertime/resources/images/sprites/mi_happy_cas.png"
+    image mi_ups_cas = "mods/OlgaModbySummertime/resources/images/sprites/mi_ups_cas.png"
+    image mi_surp_cas = "mods/OlgaModbySummertime/resources/images/sprites/mi_surp_cas.png"
+    image s_phone_link = "mods/OlgaModbySummertime/resources/images/sprites/s_phone_link.png"
+    image dev_angry_glass = "mods/OlgaModbySummertime/resources/images/sprites/dev_angry_glass.png"
+    image dev_cuteface = "mods/OlgaModbySummertime/resources/images/sprites/dev_cuteface.png"
+    image dev_cuteface_2 = "mods/OlgaModbySummertime/resources/images/sprites/dev_cuteface_2.png"
+    image dev_laugh = "mods/OlgaModbySummertime/resources/images/sprites/dev_laugh.png"
+    image dev_dontlike = "mods/OlgaModbySummertime/resources/images/sprites/dev_dontlike.png"
+    image dev_normal_1 = "mods/OlgaModbySummertime/resources/images/sprites/dev_normal_1.png"
+    image dev_serious = "mods/OlgaModbySummertime/resources/images/sprites/dev_serious.png"
+    image mt_smile_panama_far = "mods/OlgaModbySummertime/resources/images/sprites/mt_smile_panama_far.png"
+    image mt_normal_panama_far = "mods/OlgaModbySummertime/resources/images/sprites/mt_normal_panama_far.png"
+    image mt_shocked_panama_far = "mods/OlgaModbySummertime/resources/images/sprites/mt_shocked_panama_far.png"
+    image mt_grin_panama = "mods/OlgaModbySummertime/resources/images/sprites/mt_grin_panama.png"
+    image mt_angry_panama = "mods/OlgaModbySummertime/resources/images/sprites/mt_angry_panama.png"
+    image ko_normal_pioneer = "mods/OlgaModbySummertime/resources/images/sprites/ko_normal_pioneer.png"
+
+#Персонажи
+    $ snobb = Character(u'Снобы', color="0000ff", what_color="E2C778",)
+    $ chpi = Character(u'Мальчик', color="42aaff", what_color="E2C778",)
+    $ lotpioneers = Character(u'Пионеры', color="ff0000", what_color="E2C778",)
+    $ telep = Character(u'Телефон', color="E52B50", what_color="E2C778",)
+    $ de = Character(u'Дьявол', color="E52B50", what_color="E2C778",)
+    $ huston = Character(u'Хьюстон', color="6666ff", what_color="E2C778",)
+    $ elunderbed = Character(u'...', color="ffff00", what_color="E2C778",)
+
+#Сценарий
+label Ever_MT_Prologue:
+    stop ambience
+    $ new_chapter(1, u"Ольга.Глава 1")
+    $ prolog_time()
+    $ persistent.sprite_time = 'day'
+    $ set_mode_nvl ()
+    scene black with dissolve
+    $ renpy.pause (2)
+    play music olm_oldfag fadein 2
+    scene anim prolog_1 with dissolve2
+    $ renpy.pause (2)
+    window show
+    "Словно в омут, я с головой нырнул в эту пучину бесконечного лета, сменяющуюся цикл за циклом.{w} Уже и не припомню, как давно я здесь: три недели или всё-таки три года?"
+    "Помню лишь, что всё начиналось не так..."
+    "Тихими отголосками призрачных воспоминаний до меня доносятся образы моей «прошлой» жизни."
+    "Словно её никогда и не было..."
+    scene bg ext_ent_dark with dissolve
+    "Теперь же я навеки стал пленником  этого странного, невообразимого и загадочного мира.{w} Быть может, он только хочет казаться подарком судьбы или счастливым лотерейным билетом с шансом выигрыша один на миллиард, а в действительности пытается захватить мой разум, поглотив его в тернии пустоты и бессилия?{w} Я не могу быть уверен ни в том, ни в другом."
+    stop music fadeout 5
+    "Могу сказать лишь одно..."
+    scene bg ext_square_pink with hpunch
+    play music olm_newstart
+    "Не на того напали!"
+    "Многие на моём месте наверняка, давно и бесповоротно, сошли бы с ума."
+    "Но только не я."
+    nvl clear
+    scene bg ext_beach_pink with dissolve
+    "Для меня «Совёнок» стал личным обособленным райским уголком."
+    "Хвала создателю этого места! Ты не прогадал с кастингом главного героя и, уж поверь, я тебя не подведу!"
+    "А что до реальной жизни...{w} Да кому вообще сдалась эта реальная жизнь?{w} Кто в своём уме захочет променять вечный летний лагерь с его интересными обитателями и {b}обитательницами{/b} на скучную жизнь затворника и социофоба?"
+    scene bg ext_road_pink with dissolve
+    "Конечно, везде есть свои нюансы: межпространственное перемещение срезало мне пару годков, и угодил я в те далёкие времена, где при произнесении таких слов, как «Вай-Фай» и «Свобода личности» ты можешь получить долгосрочную путёвку в очень холодные края СССР."
+    "Но даже эти незначительные минусы лишь поспособствовали моему перерождению в более-менее социального человека."
+    "Разве это не прекрасно?"
+    nvl clear
+    scene bg ext_ent_pink with dissolve
+    "Дорога была долгой, но я верю - это только начало!"
+    "Настоящее путешествие начинается здесь..."
+    window hide
+    stop music fadeout 3
+    scene black with dissolve2
+    $ day_time()
+    $ set_mode_adv ()
+    $ renpy.pause (3)
+    play ambience ambience_camp_center_day
+    scene bg ext_square_day with dissolve
+    $ renpy.pause (1)
+    window show
+    th "Ну или не совсем здесь, но очень-очень скоро."
+    th "А пока что не мешайте человеку грезить наяву!"
+    "Вальяжно развалившись на одной из лучших скамеек площади, я медленно, но верно погружался в бессмысленную и беспощадную праздность."
+    "Последнее время меня всё чаще настигает чувство полной отстранённости и опустошённости."
+    "Конечно же, окружающий мир не потерял мой интерес, но и никакого детского восторга уже не вызывает. Мы с ним словно срослись, став сиамскими близнецами, вынужденными делить одно тело на двоих."
+    "За длительное время моего пребывания здесь мы прекрасно изучили друг друга и знаем все точки соприкосновения наших с ним взаимодействий."
+    "В них нет ничего сложного, на самом деле. {w}Достаточно знания одной простой истины: {i}отсюда не уйти{/i}."
+    "Впрочем, хочу ли я этого?"
+    window hide
+    $ renpy.pause (0.5)
+    show znak_question at left with dspr
+    $ renpy.pause (0.5)
+    show znak_question_1 at center with dspr
+    $ renpy.pause (0.5)
+    show znak_question_2 at right with dspr
+    $ renpy.pause (1)
+    hide znak_question_1
+    hide znak_question
+    hide znak_question_2
+    window show
+    "Не знаю."
+    "Всё, чего я хочу сейчас, так это замкнуться в себе и бравировать над любыми проявлениями человеческой формы жизни."
+    "Нет, я не превратился в зануду за все эти циклы.{w} Но порой даже такое обыденное занятие, как общение с людьми, требует отдыха от него." 
+    "Поэтому, я время от времени устраивал самые что ни на есть настоящие спиритические сеансы по вселению всемогущего духа Хикикомори в своё бренное тело."
+    "Взглянув на меня со стороны, можно понять, что определённых успехов я достиг."
+    "Если бы лень была видом искусств, я определённо стал бы её шедевральным воплощением."
+    "Могу даже представить себя лежащего вот так, но только не на скамейке, а где-нибудь на главном стэнде в Лувре..."
+    window hide
+    scene bg int_louvre
+    show prologue_dream
+    play sound_loop sfx_louvre_paparazzi
+    "...А от столпившихся вокруг снобов с фотоаппаратами, чьи вспышки не прекращают мигать ни на секунду, до меня доносились бы постоянные восторженные возгласы."
+    scene bg int_louvre with flash
+    show prologue_dream
+    snobb "Какая грация! Сколько чувств! Это произведение искусства!"
+    window hide
+    $ renpy.pause (1)
+    stop sound_loop
+    scene bg ext_square_day with dissolve
+    $ renpy.pause (2)
+    window show
+    "Меня повеселили такие мысли."
+    "Я пролежал с глупой улыбкой на лице ещё некоторое время, ровно до тех пор, пока меня не потревожили."
+    window hide
+    show sl normal pioneer with dspr
+    $ renpy.pause (0.5)
+    window show
+    sl "Семён, ты случайно не уснул?"
+    th "Вот всегда так! Стоит только прикоснуться к хрупкому фарфору чрезвычайно важных размышлений, как обязательно рядом появится слон!"
+    "Я молча перевёл полузакрытые сощуренные глаза на пионерку."
+    me "..."
+    sl "Семён, ты меня слышишь?"
+    me "..."
+    show sl serious pioneer with dspr
+    sl "Хватит валять дурака!"
+    me "Ну."
+    "Мой тихий возглас никак не тянул на полноценный ответ. Он находился на уровне междометия, которое едва ли могло дотянуть до предлога."
+    sl "Автобус отбывает через пять минут, где твои вещи?"
+    "Я кивнул на свои скромные пожитки, расположенные под скамейкой."
+    show sl surprise pioneer with dspr
+    sl "Это все твои вещи?"
+    me "Да, это все вещи и все мои. {w}Ещё вопросы?"
+    show sl angry pioneer with dspr
+    sl "Нет. Постарайся не опаздывать."
+    window hide
+    hide sl with dspr
+    $ renpy.pause (0.5)
+    window show
+    th "А что ещё мне ей ответить? Не объяснять же, что для путешествия между циклами огромный багаж не требуется."
+    "Лично мне достаточно потрёпанного советского магнитофона «Весна» и рюкзака, содержимое которого больше напоминает коллекцию старого стиляги: очень много кассет, цветных рубашек и прочих, выходящих вон из ряда, предметов."
+    "Нет, конечно я мог ей ответить более развёрнуто, возможно даже рассказать всю правду о своём происхождении и о другом мире, но..."
+    "Мне лень."
+    "Когда-то давно я тратил уйму времени на жалкие попытки донести до местных обитателей всю истину приключившегося со мной действа."
+    "Бесполезно, меня никто не слушает." 
+    "Поэтому, Славе пришлось довольствоваться моим кислым лицом, которое слишком высокого о себе мнения, чтобы постоянно оправдываться."
+    "Я бросил взгляд на потрёпанные наручные часы."
+    th "В любом случае, пора на новый виток."
+    "Я нехотя поднялся со скамейки и, собрав свой драгоценный лут, двинулся к воротам лагеря, сохраняя прежнюю отстранённость."
+    "Четыреста десятый, наш автобус отправляется в... рай?"
+    window hide
+    show blink
+    $ renpy.pause (1)
+    stop ambience
+    scene black with dissolve
+    $ renpy.pause (2)
+    $ renpy.movie_cutscene("mods/OlgaModbySummertime/resources/video/chapter/vid_chapt_1.webm", delay=19)
+    scene black with dissolve
+    $ renpy.pause (2)
+    play ambience ambience_camp_entrance_day
+    scene bg ext_no_bus with dissolve2
+    $ renpy.pause (1)
+    window show
+    "На стоянке меня моментально окружили пионеры, томившиеся под полуденной жарой в ожидании открытия дверей автобусов."
+    "Я стал выискивать глазами знакомые лица и почти сразу приметил Лену."
+    show un normal sport far at right with dspr
+    $ renpy.pause (1)
+    window show
+    th "Определённо она, зрение ещё не подводит..."
+    "Лена держалась поодаль от остальных людей, грустно хлопая глазами."
+    th "Не задалась смена?"
+    th "Впрочем, как и миллион предыдущих."
+    window hide
+    hide un with dspr
+    show mi_sad_cas_far at fleft with dspr
+    $ renpy.pause (1)
+    window show
+    "Ровно на противоположном конце стоянки расположилась Мику, устало восседая на своей огромной дорожной сумке."
+    th "И даже никого не донимает?"
+    window hide
+    hide mi_sad_cas_far with dspr
+    show us grin pioneer far at cleft with dspr 
+    show dv grin pioneer far at fleft with dspr
+    $ renpy.pause (1)
+    window show
+    "Там же, почти рядом, были и Алиса с Ульяной, которые, как им и подобает, с хитрейшими лицами о чём-то очень бурно сплетничали."
+    th "Если бы все здешние события не были абсолютно одинаковыми, то я бы всерьёз забеспокоился."
+    th "По крайней мере, автобус они не взорвут."
+    th "Правда?"
+    window hide
+    hide dv with dspr
+    hide us with dspr
+    "..."
+    "В толкучке людей мелькали и другие, менее знакомые мне, силуэты."
+    th "Прекрасно, а теперь пора занять по праву принадлежащее автобусное кресло и отправиться в самое начало круговорота событий под названием «Вечно семнадцать»."
+    window hide
+    show blinking with dissolve
+    $ renpy.pause (2)
+    window show
+    "Уехать не получилось."
+    th "Куда пропал мой автобус??"
+    th "Может я что-то напутал со временем?"
+    th "Или же господин пространственно-временной континуум решил посетить мой скромный мирок, заодно перевернув всё здесь вверх дном?"
+    th "Физика, физика..."
+    th "Хорошо, что я в ней ни капли не смыслю, пойду спрошу у кого-нибудь про автобус."
+    window hide
+    show blinking with dissolve
+    $ renpy.pause (1)
+    window show
+    th "Стоп. Мне придётся общаться с людьми?"
+    th "Вот и побыл затворником."
+    "Перед глазами моментально выделились несколько особей прекрасного пола."
+    "К какой из них подойти?"
+    menu:
+        "Мику?...":
+            window hide
+            $ renpy.pause (0.5)
+            window show
+            show mi_sad_cas_far with dspr
+            "Моя тень, словно туча, нависла над тоскливой девочкой."
+            me "Здра..."
+            hide mi_sad_cas_far with dspr
+            show mi_surp_cas with dspr
+            mi "Ой, привет, а я тебя не заметила!"
+            hide mi_surp_cas with dspr
+            show mi_ups_cas with dspr
+            mi "Я так устала сидеть под солнцем, даже тенёчка нет, чтобы не так жарко было, а прошёл целый час!"
+            me "..."
+            mi "Ты тоже устал ждать?"
+            me "Тоже устал."
+            "Мику обладала совершенно магической способностью вводить меня в замешательство каждый раз, когда я пытаюсь с ней о чём-либо поговорить."
+            mi "Интересно, зачем создатель этого мира придумал такое палящее солнце? Почему он мучает нас, неужели он не может сжалиться над нами?"
+            th "Так!..."
+            th "Хьюстон, у нас проблемы!"
+            huston "В чём дело?"
+            th "Мику сломалась!"
+            huston "Тебе всё равно никто не поверит."
+            "Нет, ну правда..."
+            "Такие серьёзные рассуждения никак не клеились с таким тоненьким голоском."
+            th "Это мой мир, но, прости, управлять им я не могу."
+            hide mi_ups_cas with dspr
+            show mi_surp_cas with dspr
+            mi "Упс, кажется, я тебя сильно загрузила."
+            hide mi_surp_cas with dspr
+            show mi_happy_cas with dspr
+            mi "Так долго ждём, я уже готова поверить в бесконечное лето..."
+            me "Во что ты готова поверить?!"
+            window hide
+            $ renpy.pause (1)
+        
+        "Где-то здесь были рыжие":
+            "Не знаю, какая муха укусила меня в тот самый момент, но думать было поздно."
+            show us normal pioneer far at cleft with dspr
+            show dv normal pioneer far at cright with dspr
+            "Я уверенно шёл навстречу Алисе и Ульяне."
+            th "Главное, собраться с мыслями и правильно поставить вопрос."
+            th "Ну-с, вперёд!"
+            window hide
+            scene black with dissolve2
+            $ renpy.pause (1)
+            stop ambience
+            play music olm_chaplin fadein 2
+            scene bg ext_no_bus_30s with flash
+            $ renpy.pause (0.5)
+            show us normal pioneer at cleft with dspr
+            show dv normal pioneer at cright with dspr
+            $ renpy.pause (0.5)
+            scene bg se_repl_1 with dspr
+            "..."
+            scene bg ext_no_bus_30s with dspr
+            show us grin pioneer at cleft with dspr
+            show dv grin pioneer at cright with dspr
+            "..."
+            scene bg gi_repl_1 with dspr
+            "..."
+            scene bg ext_no_bus_30s with dspr
+            show us normal pioneer at cleft with dspr
+            show dv normal pioneer at cright with dspr
+            "..."
+            scene bg gi_repl_2 with dspr
+            "..."
+            scene bg se_repl_2 with dspr
+            "..."
+            scene bg ext_no_bus_30s with dspr
+            show us angry pioneer at cleft with dspr
+            show dv angry pioneer at cright with dspr
+            "..."
+            scene bg se_repl_3 with dspr
+            "..."
+            window hide
+            stop music fadeout 4
+            scene black with dissolve
+            $ renpy.pause (3)
+            play ambience ambience_camp_entrance_day
+  
+    
+    play sound sfx_bus_honk
+    scene bg ext_bus with flash
+    $ renpy.pause (2)
+    window show
+    "Нужный автобус подкрался незаметно."
+    th "Наконец-то, самое время стереть память всем местным обитателям."
+    "Не дождавшись команды вожатой, я мигом зашмыгнул в автобус."
+    window hide
+    scene bg int_bus with fade
+    $ renpy.pause (1)
+    window show
+    "Здесь меня ожидал излюбленный мною третий ряд с конца."
+    "Подняв подлокотник, я развалился на мягком советском велюре, умудрившись занять сразу оба посадочных места."
+    window hide
+    show blink
+    $ renpy.pause (2)
+    window show
+    "Я почти задремал к тому моменту, когда кто-то слегка дотронулся до моего плеча."
+    window hide
+    $ renpy.pause (1)
+    stop ambience
+    play sound_loop sfx_bus_interior_moving
+    scene bg int_bus_people_day with fade
+    show un normal sport with dspr
+    $ renpy.pause (2)
+    window show
+    un "Извини, здесь не занято?"
+    me "Да, конечно, присаживайся..."
+    un "Большое спасибо."
+    "Но двигаться я не торопился."
+    show un shy sport with dspr
+    me "Ко мне на колени."
+    "Я недвусмысленно посмотрел на краснеющую Лену."
+    window hide
+    $ renpy.pause (1)
+    show un serious sport with dspr
+    $ renpy.pause (1)
+    hide un with dspr
+    window show
+    me "Не хочешь?..."
+    "Как я и предполагал, ответа не последовало, а пионерки и след простыл."
+    "Впрочем, у Лены всё было написано на лице."
+    th "Может я всё-таки был слишком резок по отношению к ней?"
+    th "Ну вот... совесть проснулась - настроение испорчено."
+    th "А вдруг ей теперь некуда сесть?"
+    "Я еле заметно обернулся."
+    th "Так, самое главное - не подавать виду, что я за неё беспокоюсь!"
+    "Лена сидела на последнем ряду и, давно позабыв обо мне, читала свою очередную книженцию."
+    th "Миссия выполнена, карма сохранена!"
+    th "А теперь можно и поспать."
+    "Уже привыкший к шумной обстановке и галдящим людям вокруг, я по обыкновению прикрыл глаза, стараясь как можно быстрее погрузиться в сон."
+    th "К сожалению, я не могу разделить всеобщие переживания пионеров о заканчивающихся каникулах."
+    th "Ведь мои каникулы бесконечны."
+    th "Проклятье это или дар - не могу сказать точно. Стоит ли вообще рассуждать об этом, когда, казалось бы, все умазаключения давно приведены?"
+    th "Лето будет бесконечным вне зависимости от моего желания. Наверное, стоит радоваться, да и только."
+    th "Но есть в этом нечто грустное, что заставляет меня иногда сомневаться в своих безоблачных суждениях."
+    th "Я бы сказал, но, пожалуй, не сейчас."
+    th "Всё-таки, это не я выбрал неправильную сторону рая, а она меня."
+    "Стоило мысли только промелькнуть, как в моей голове тотчас раздалась еле слышимая ухмылка."
+    th "И я о том же. Спать пора."
+    th "Кто ищет вечное, обретает одиночество..."
+    window hide
+    scene black with dissolve2
+    $ renpy.pause (2)
+    stop sound_loop
+    $ renpy.pause (5)
+    
+label Ever_MT_Prologue_groza:
+    $ night_time()
+    play ambience olm_amb_rain_out
+    scene bg int_bus_n_r with dissolve
+    $ renpy.pause (2)
+    window show
+    "Пробуждение после дневного сна далось мне с особым трудом."
+    "Глаза медленно открылись, а голова, подобно включающемуся компьютеру, принялась анализировать всю собранную ими информацию."
+    "До конца не опомнившись, я гордо поднялся с кресла."
+    me "Ну здравствуй, новая жизнь!"
+    window hide
+    play sound sfx_thunder_crack
+    scene bg int_bus_n_r with flash
+    $ renpy.pause (1)
+    window show
+    me "Ай-ай!"
+    "Я подскочил на месте от неожиданности."
+    me "Опять сбои в матрице?"
+    "За окном вовсю лил дождь, а раскаты грома не прекращались ни на секунду."
+    th "Где моё лето?"
+    window hide
+    play sound sfx_thunder_crack
+    scene bg int_bus_n_r with flash
+    $ renpy.pause (1)
+    window show
+    "Я вновь испуганно подпрыгнул и принял стойку, которая, как мне казалось, впитала в себя все виды восточных единоборств и выражала чрезвычайно крутой нрав её владельца."
+    me "Ты! Хватит со мной шутить, верни всё как было!"
+    "Я и сам не знал, к кому обращаюсь."
+    me "Сначала непонятки с автобусом, теперь это! Не зли меня, верни всё как прежде!"
+    "Вполне ожидаемо, никто мне не ответил, но я продолжал рьяно ругаться со злым и неведомым ничем."
+    "Если так подумать, меня всегда преследовала мысль, что у «Совёнка» есть некий создатель, его творец."
+    "К нему, скорее всего, и было направлено моё гневное обращение."
+    window hide
+    $ renpy.pause (1)
+    scene black with dissolve2
+    stop ambience
+    $ renpy.pause (3)
+    play ambience olm_amb_rain_ext
+    scene bg ext_road_n_r with dissolve
+    $ renpy.pause (1)
+    window show
+    "Я долго осматривал пустой автобус, ходил по дороге вперёд-назад, но так и не встретил ни единого признака цивилизации."
+    "Уходить слишком далеко мне не хотелось."
+    "А, может быть, я прекрасно понимал, что там ничего нет?"
+    "Устав бродить туда-сюда, я ещё некоторое время сначала угрожающе, а затем уже жалобно взывал к высшему существу, по чьей вине я застрял здесь."
+    "Несколько часов длительных монологов не прошли бесследно - я начал срываться и заговариваться."
+    me "Зачем ты так?"
+    me "Решил меня наказать за то, что плохо веду себя?"
+    me "Как же ты не понимаешь, я просто не могу иначе!"
+    me "Возможно я нагрубил кому-нибудь..."
+    me "..."
+    me "Ладно, много кому, но ведь я не желал им зла!"
+    "Ответная тишина лишь сильнее провоцировала меня."
+    "Я повысил голос насколько это было возможно."
+    me "Хрен с тобой! Не хочешь, не помогай мне и вообще, здесь не так уж и плохо, спасибо за новый дом!"
+    "Устав кричать, я громко закашлялся, а затем и вовсе демонстративно уселся на сырую обочину дороги. (когда рядом был целый автобус, действительно...)"
+    "Меня пугала только одна мысль: сбой дала не сказочная вселенная, а мой собственный рассудок."
+    "И я, поддавшись воздействию защитной реакции организма, снова ищу виноватых."
+    window hide
+    $ renpy.pause (1)
+    scene black with dissolve
+    $ renpy.pause (1)
+    scene bg ext_road_n_r with dissolve
+    window show
+    "Я продолжал сидеть на холодной земле, свесив голову под давлением переполненной чаши безысходности."
+    "Сильные порывы ветра свистели в ушах, а гроза лишь крепчала, всё больше набирая обороты."
+    "Казалось, она накатывала с новой силой. Потерев себя за плечи, я поднял глаза к небу."
+    "Не смотря на проливной дождь, туч было не слишком много."
+    th "Неужели так бывает?"
+    play sound sfx_ph_al
+    "Внезапно, мой карман пронзительно запищал, заставив меня вздрогнуть от неожиданности."
+    me "Очередные проделки Сатаны?"
+    "Я извлёк из кармана давно позабытый мобильник."
+    th "Полезная и занимательная была когда-то вещь, пока не сел аккумулятор."
+    "С тех пор я и не вспоминал об этом достоянии современной цивилизации."
+    "Сейчас же, его экран ярко светился, переливаясь всеми красками."
+    me "Не может такого быть!"
+    "Я внимательно вгляделся в экран, моё дыхание моментально перехватило от увиденного."
+    "Это был мигающий логотип приёма сигнала."
+    "Логотип то появлялся, то исчезал - сигнал был очень слабым, едва уловимым."
+    "Здесь я подумал..."
+    th "Всяко лучше, чем целую вечность торчать на безлюдном пустыре."
+    window hide
+    play sound sfx_thunder_crack
+    scene bg ext_road_n_r with flash
+    $ renpy.pause (1)
+    play music olm_groza_run fadein 2
+    $ renpy.pause (2)
+    window show
+    "Я сорвался с места, побежал в открытое поле, вытянув руку максимально высоко, пытаясь уловить сигнал."
+    "Маленькое деление антенны возникало всего на долю секунды и тут же исчезало."
+    "Дождь то и дело норовил залить мне глаза, ветер с неистовой силой хлестал по лицу, а гром разрывал барабанные перепонки, но я продолжал во весь опор нестись по полю, стараясь поймать чёртову сеть."
+    "В жизни бывают моменты, когда нет права на ошибку, когда всё твоё жалкое существо зависит от малейшего шанса, которым ты просто обязан воспользоваться, ведь в противном случае тебя ждёт незавидная участь."
+    th "Поймать сигнал! Поймать!"
+    window hide
+    jump Ever_MT_Prologue_groza_link_start
+    
+label Ever_MT_Prologue_groza_link_start:
+    menu:
+        "Бежать вперёд":
+            jump Ever_MT_Prologue_groza_link_mid
+        
+        "Бежать направо":
+            jump Ever_MT_Prologue_groza_link_zero
+        
+        "Бежать налево":
+            jump Ever_MT_Prologue_groza_link_zero
+    
+label Ever_MT_Prologue_groza_link_zero:
+    window show
+    "Нет сигнала."
+    window hide
+    jump Ever_MT_Prologue_groza_link_start
+
+label Ever_MT_Prologue_groza_link_mid:
+    window show
+    "Сигнал стал немного чётче."
+    window hide
+    menu:
+        "Бежать вперёд":
+            jump Ever_MT_Prologue_groza_link_zero
+            
+        "Бежать направо":
+            jump Ever_MT_Prologue_groza_link_max
+        
+        "Бежать налево":
+            jump Ever_MT_Prologue_groza_link_zero
+        
+label Ever_MT_Prologue_groza_link_max:
+    window show
+    "Средний уровень сигнала, ещё чуть-чуть!"
+    window hide
+    menu:
+        "Бежать вперёд":
+            jump Ever_MT_Prologue_groza_link_zero
+        
+        "Бежать направо":
+            jump Ever_MT_Prologue_groza_link_success
+        
+        "Бежать налево":
+            jump Ever_MT_Prologue_groza_link_zero
+        
+    
+label Ever_MT_Prologue_groza_link_success:
+    stop music fadeout 4
+    "Сигнал стабилизировался и стал чётким."
+    "Я вытянул руку максимально высоко и сумел достичь успеха. Телефон утвердительно пропищал о том, что сеть была найдена."
+    me "Ура!"
+    window hide
+    $ renpy.pause (0.5)
+    play sound sfx_ph_al
+    $ renpy.pause (2)
+    play sound sfx_thunder_crack
+    scene bg ext_road_n_r with flash
+    $ renpy.pause (2)
+    play sound sfx_bodyfall_1
+    with vpunch
+    $ renpy.pause (1)
+    scene black with dissolve2
+    $ renpy.pause (2)
+    stop ambience
+    $ renpy.pause (2)
+    $ renpy.movie_cutscene("mods/OlgaModbySummertime/resources/video/chapter/vid_opening_0.webm", delay=41)
+    $ renpy.pause (4)
+    
+    
+label Ever_MT_Day1_arrival:
+    $ day_time ()
+    play ambience ambience_camp_center_day
+    $ volume (0.5,'ambience')
+    scene bg int_bus with dissolve2
+    $ renpy.pause (2)
+    me "Поймал!!!" with hpunch
+    "Когда веки открылись, я уже стоял на ногах - настолько мгновенным было пробуждение."
+    me "А кого? Или чего?"
+    "На секунду потеряв равновесие и неловко пошатнувшись, я озадаченно огляделся по сторонам."
+    th "Кажись, приехали.{w} А беготни под дождём словно и не было, приснится же такое."
+    th "Или это был вовсе не сон?"
+    "Я ещё раз внимательно осмотрел свой телефон и даже поклацал кнопки для верности, но аппарат не подавал никаких признаков жизни."
+    th "И во что мне теперь верить?"
+    th "С одной стороны, пора бы уже привыкнуть к отсутствию логики событий, происходящих здесь."
+    th "Но всё же!"
+    th "Эх, ничего не понимаю..."
+    "Я тяжело вздохнул."
+    "Большой плюс для меня - я весьма отходчив."
+    "Следовательно, мне всегда проще забыть и смириться, нежели пытаться докопаться до истины."
+    "К счастью, забываться я умею."
+    window hide
+    $ renpy.pause (0.5)
+    scene bg ext_camp_entrance_day with dissolve
+    "Расслабляться - это тоже искусство.{w} Искусство, в котором я большой спец."
+    th "Нужно только очистить разум, сделать глубокий вдох и..."
+    $ volume (1,'ambience')
+    scene bg ext_camp_entrance_day with dissolve
+    th "Кассета в магнитофон, рубашку долой..."
+    window hide
+    play sound sfx_recorder_on
+    $ renpy.pause (0.5)
+    play music olm_grkino fadein 2
+    $ renpy.pause (0.5)
+    "Где-то в рюкзаке были мои очки..."
+    scene bg ext_ent_glasses with dspr
+    th "Чудесно, вот и они!"
+    window hide
+    scene bg ext_ent_glasses with dspr
+    window show
+    "Взвалив громадный магнитофон на плечо, длинными и развалистыми шагами я побрёл к воротам."
+    "Приблизившись к статуям пионеров, я приметил достаточно густую лужайку."
+    "Раскинувшись на нагретой солнцем почве, я приступил к всеобъемлющему обряду очищения мыслей."
+    "Уснул, проще говоря."
+    window hide
+    show blink with dissolve
+    $ renpy.pause (1)
+    window show
+    "Сны, которые мне снились, были поистине волшебными."
+    window hide
+    scene bg emt_grkino with flash
+    show prologue_dream
+    $ renpy.pause (0.5)
+    window show
+    "В одном из таких снов я был лидером самой яркой и культовой советской рок-группы."
+    "На наших концертах всегда царил аншлаг, а громкие ликования толпы не стихали ни на секунду."
+    "Мы не просто развлекали людей яркими выступлениями, но и несли в своих песнях голос нашей эпохи."
+    "Голос, чья судьба - вечность."
+    show mt angry pioneer with dspr
+    "В какой-то момент, я приметил в толпе людей весьма знакомую фигуру."
+    "Её строгий взгляд не внушал ничего хорошего."
+    stop music fadeout 3
+    window hide
+    $ renpy.pause (1)
+    $ sunset_time()
+    $ persistent.sprite_time = 'sunset'
+    play ambience ambience_camp_center_evening
+    scene bg ext_ent_eve with dissolve
+    show mt angry pioneer with dspr
+    $ renpy.pause (1)
+    window show
+    "Когда я открыл глаза, то увидел нависшее надо мной лицо Ольги Дмитриевны."
+    "Стоило ли говорить, что лицо было не очень довольное?"
+    th "Ещё никогда Штирлиц не был так близок к провалу.{w} А я к тому, чтобы провести следующие семь дней в изоляторе."
+    mt "Ты чем здесь занимаешься?"
+    me "Я... Эм... Видите ли, мне стало жарко и..."
+    "Я кивнул в сторону рубашки, которая валялась неподалёку."
+    show mt normal pioneer with dspr
+    "Вместо того, чтобы извергнуть на меня весь гнев пионерской преисподнии, вожатая приняла задумчивый вид, бормоча что-то вполголоса себе под нос."
+    mt "Так и знала, что пришлют невесть кого."
+    me "Меня кто-то прислал?"
+    "Воспользовавшись заминкой, я принялся наспех одеваться."
+    "Но заданный вопрос действительно интересовал меня."
+    "Слегка опомнившись, Ольга Дмитриевна пару раз нервно встряхнула головой и, пропустив мимо ушей мои слова, начала говорить словно по заученным репликам."
+    mt "Семён, верно? Опаздываешь."
+    mt "Линейка по открытию смены уже началась, идём быстрее!"
+    "Она слегка дотронулась ладонью до моей спины, задавая направление к воротам лагеря."
+    me "Подождите, мои вещи..."
+    show mt smile pioneer with dspr
+    mt "Потом."
+    window hide
+    hide mt with dspr
+    $ renpy.pause (1)
+    scene bg ext_clubs_eve with fade2
+    $ renpy.pause (2)
+    window show
+    "Мы шли второпях, Ольга Дмитриевна продолжала спешно сыпать объяснениями, а я недоумённо её слушал, стараясь не упустить ни слова."
+    th "Какого лешего здесь происходит? Я уже молчу о том, что встречать меня вышла не Славя."
+    th "Это... Это не канон!"
+    window hide
+    $ renpy.pause (1)
+    scene bg ext_houses_sunset with dissolve
+    "Мимо тянулись тихие и необычно пустые улочки."
+    "Мы приближались к главной площади. Шестое чувство подсказывало мне: с лагерем определённо что-то не так."
+    show mt normal pioneer with dspr
+    mt "Нам нужно успеть представить тебя, пока идёт линейка!"
+    mt "Надеюсь, ты подготовил свою речь?"
+    th "Линейка, речь... Я точно приехал в нужный лагерь?"
+    me "Свою речь я никогда не забуду!"
+    mt "Вот и славно."
+    mt "Ах да, меня зовут Ольга. Ольга Дмитриевна."
+    me "Очень приятно, наверное..."
+    mt "Мы ещё успеем познакомиться, а сейчас нам лучше поспешить."
+    window hide
+    hide mt with dspr
+    $ renpy.pause (1)
+    $ volume (0.7,'music')
+    play music olm_amb_square fadein 3
+    scene bg ext_square_sunset with dissolve
+    $ renpy.pause (1)
+    window show
+    "Совсем скоро нас встретила оживлённая площадь, вокруг которой, плотными шеренгами, были выстроены все отряды Совёнка."
+    "На данный момент, перед ними никто не выступал, все стояли в ожидании чего-то, переговариваясь между собой."
+    show mt smile pioneer with dspr
+    mt "Отлично, линейка ещё не закончилась!"
+    "Данная весть приободрила девушку."
+    mt "Становись сюда и жди, пока я тебя не позову."
+    "Меня начали принудительно впихивать в шеренгу к малышне, которая и без меня неистово между собой толкалась."
+    me "А нельзя мне постоять в стороне?"
+    show mt angry pioneer with dspr
+    mt "Стой здесь и никуда ни шагу."
+    mt "Если заставишь искать тебя второй раз, кому-то из нас двоих будет очень плохо."
+    show mt grin pioneer with dspr
+    mt "Но не мне."
+    hide mt with dspr
+    "Покинув меня, Ольга Дмитриевна побежала к  компании других вожатых и начала с ними оживлённо что-то обсуждать."
+    th "Если откинуть необычное поведение Ольги, события продолжают принимать всё более странный оборот. Линейка в первый день? К тому же вечером? Если бы я только мог выудить побольше информации!"
+    "Я постарался прислушаться к разговору вожатых, но они стояли слишком далеко."
+    window hide
+    $ renpy.pause (0.5)
+    show ko_normal_pioneer with dspr
+    window show
+    chpi "Эй, ты новенький?"
+    "Паренёк, стоявший рядом, определённо обращался ко мне."
+    me "Нет, я здесь главный пенсионер, отстань."
+    chpi "Я тоже новенький, давай дружить. Как тебя зовут?"
+    "Судя по смешной причёске а-ля горшок, толстым линзам в круглой оправе и глупой детской физиономии, парнишка не пользовался большим почтением среди сверстников."
+    menu:
+        "Ответить":
+            me "Ладно, давай дружить, только позже, хорошо?"
+            
+        "Игнорировать":
+            "Одарив мальчика совсем недружелюбным взглядом, я чётко дал ему понять, что у меня нет ни малейшего желания с ним дружить."
+    
+    hide ko_normal_pioneer with dspr
+    "Я продолжил осматривать площадь."
+    window hide
+    scene bg ext_square_sunset with fade
+    $ renpy.pause (1)
+    window show
+    "Пару минут спустя Ольга Дмитриевна снова шла ко мне."
+    "В руках у неё был солидный советский микрофон, провод которого тянулся на десятки метров и уходил куда-то совсем далеко, под ноги пионеров, находившихся неподалёку от памятника."
+    show mt smile pioneer with dspr
+    mt "Идём."
+    "Она пригласительным жестом указала на центр площади."
+    me "Может, не надо?"
+    window hide
+    show mt angry pioneer with dspr
+    $ renpy.pause (1)
+    show mt normal pioneer with dspr
+    window show
+    me "Хорошо, хорошо."
+    hide mt with dspr
+    "Я вздохнул и последовал за Ольгой."
+    "Шли мы прямиком к памятнику, в самый центр площади."
+    stop music fadeout 5
+    mt "Попрошу тишины!"
+    "Когда последние голоса стихли, она продолжила."
+    mt "Салют и честь, пионеры!"
+    mt "С гордостью объявляю вам нового помощника вожатой и по совместительству последнего, третьего кандидата на пост будущего вожатого! - Персунов Семён."
+    "По рядам пионеров прошлось перешёптывание."
+    lotpioneers "Ещё один... третий... это и есть третий."
+    "С какой-то изощрённой гордостью Ольга Дмитриевна протянула мне микрофон."
+    "Я принял микрофон и, не до конца понимая, чего от меня хотят, стоял как вкопанный под пристальным вниманием всего лагеря."
+    mt "Семён, речь!"
+    me "Да...конечно...эээ...Приветствую всех, уверен, мы хорошо поладим, надеюсь на ваш радушный приём..."
+    play sound sfx_micro_noise
+    me "Что?! Кто я?" with hpunch
+    me "Вожатый? Я?"
+    "Я испуганно повернулся к Ольге Дмитриевне, мгновенно встретив её недоумевающий взгляд."
+    "Она тоже была удивлена, но совсем по иному поводу: уж точно не такую речь она ожидала от меня услышать."
+    "Пионеры снова загалдели, из толпы полетели смешки."
+    "Ольга Дмитриевна отобрала у меня микрофон и подтолкнула обратно в шеренгу."
+    "Просить дважды не пришлось, я быстро ретировался, а она продолжила выступление."
+    mt "Вторая смена объявляется открытой! Приглашаю Ясеневу Славяну для торжественного поднятия флага!"
+    th "Претендент на должность вожатого? Как до такого дошло?"
+    "На оставшееся время линейки я выпал из реальности, пытаясь переварить все свалившиеся на меня новости."
+    window hide
+    $ renpy.pause (1)
+    scene bg ext_square_sunset with fade2
+    show mt normal pioneer at left with dspr
+    show sl normal pioneer at right with dspr
+    $ renpy.pause (2)
+    window show
+    "Когда я опомнился, пионеры уже расходились, а напротив меня, пристально изучая автобусного пришельца, стоял тандем из двух главных паладинов «Совёнка»."
+    show mt rage pioneer at left with dspr
+    show sl surprise pioneer at right with dspr
+    mt "Семён! Что это было на линейке? Не успел приехать, а уже цирк устраиваешь!"
+    sl "Ольга Дмитриевна, перестаньте вы."
+    show sl smile2 pioneer at right with dspr
+    show mt shocked pioneer at left with dspr
+    sl "Не видите, переволновался человек."
+    "Вид и вправду был у меня неважнецкий."
+    show mt normal pioneer at left with dspr
+    mt "Что же."
+    "Вожатая призадумалась."
+    mt "В таком случае, осваивайся и привыкай быстрее. Тебе завтра за новые полномочия приниматься, как-никак."
+    "Я продолжал молчать, пристально вглядываясь в лица девушек."
+    window hide
+    show sl serious pioneer at right with dspr
+    $ renpy.pause (1)
+    window show
+    sl "Семён, может тебя отвести в медпункт?"
+    me "А, что? Нет-нет. Я просто того... Устал с дороги. Всё в порядке."
+    th "Насколько бы странным не было всё происходящее, нервничать - последнее, что мне следует делать в данной ситуации."
+    th "Нервничать - не выход.  Нужно успокоиться и вести себя как обычно. В этом нет ничего сложного, я справлюсь."
+    "Я сделал глубокий вдох и моё лицо тотчас оживилось."
+    show mt smile pioneer at left with dspr 
+    mt "Ну, раз всё нормально, тогда нашему новому кандидату не помешало бы осмотреться вокруг."
+    mt "Вот тебе и задание на вечер, Славя."
+    mt "Покажи Семёну лагерь. Справишься?"
+    show sl smile pioneer at right with dspr
+    sl "Справлюсь."
+    mt "А я отлучусь по важным делам: подыщу Семёну жилплощадь."
+    window hide 
+    hide mt with dspr
+    $ renpy.pause (0.5)
+    show sl smile pioneer at center with dissolve
+    window show
+    sl "Идём?"
+    th "Не пора ли опомниться, Семён Семёнович?"
+    th "Не вы ли, собственной персоной, хотели чего-нибудь нового?"
+    th "Особенно, если учесть тот факт, что Совёнок обычно не блещет свежими событиями."
+    "«Хочу» - непоколебимо отозвалось внутреннее я."
+    hide sl with dspr
+    "Я воодушевлённо зашагал вслед за Славей."
+    window hide
+    $ renpy.pause (1)
+    scene black with dissolve
+    $ renpy.pause (1)
+    stop ambience
+    $ renpy.pause (1)
+    play ambience ambience_dining_hall_full
+    scene bg int_din_hall_suns with dissolve
+    $ renpy.pause (1)
+    window show
+    "Ужин не порадовал ничем новым, но зато компания была приятная."
+    "Я так увлёкся разговорами, что совсем не заметил, как вместе с изменением привычного мне лагеря, изменилось и моё отношение к его обитателям."
+    show sl laugh pioneer with dspr
+    sl "...правда? С тобой такое случалось?"
+    me "Был один инцидент, а с тобой ни разу?"
+    "Иногда человеку для того, чтобы прийти в себя бывает достаточно столовского чая и незамысловатого общения."
+    show sl smile2 pioneer with dspr
+    sl "Нет, для меня заблудиться в лесу - это почти то же самое, что заблудиться в собственном доме."
+    me "Мне такое знание природы очень пригодилось бы в тот раз."
+    sl "Как это произошло?"
+    me "Неудачный поход за грибами..."
+    window hide
+    show prologue_dream
+    $ renpy.pause (1)
+    stop ambience
+    scene bg ext_path_day with dissolve
+    play ambience ambience_forest_day
+    $ day_time ()
+    $ renpy.pause (2)
+    window show
+    th "А эти беленькие ничего так на вкус."
+    me "Ой, что-то мне..."
+    window hide
+    show blink
+    $ renpy.pause (0.5)
+    play music olm_miami_high
+    scene bg ext_forest_miami with flash_red
+    $ renpy.pause (4)
+    show mt smile swim with dissolve2
+    $ renpy.pause (2)
+    mt "Присоединяйся..."
+    me "Куда?"
+    mt "Присоединяйся..."
+    stop music fadeout 2
+    window hide
+    $ renpy.pause (0.5)
+    play ambience ambience_dining_hall_full
+    scene bg int_din_hall_suns with fade2
+    show mt normal pioneer at right with dspr
+    show sl normal pioneer at left with dspr
+    $ renpy.pause (1)
+    window show
+    mt "Хватит витать в облаках, Семён."
+    me "Куда...ой, то есть, что вы говорили?"
+    mt "С завтрашнего дня ты присоединяешься к нашей общей работе, говорю."
+    me "А...понятно, спасибо, я учту."
+    th "Если бы я не знал свою богатую фантазию, то наверняка ошибочно решил бы, что страдаю наркотическими флешбэками."
+    "Тем временем Ольга Дмитриевна молча присоединилась к пиршеству. Удивляться тут было нечему, ведь мы со Славей занимали вожатский столик."
+    mt "Как успехи? Показала ему лагерь?"
+    show sl smile pioneer at left with dspr
+    sl "Не пришлось."
+    show mt shocked pioneer at right with dspr
+    mt "Не понимаю."
+    sl "Семён прекрасно знает лагерь."
+    mt "Это правда, Семён?"
+    me "Да, я здесь уже бывал когда-то давно."
+    show mt angry pioneer at right with dspr
+    mt "И ты молчал?"
+    me "Вы так быстро ушли, не успел сказать. Извините."
+    show mt normal pioneer with dspr
+    mt "Так и быть."
+    "Вожатая тяжёло выдохнула."
+    th "Открытие смены выдалось непростым?"
+    mt "Сегодня всё равно не тот вечер, чтобы заниматься отрядами. Все были слишком заняты подготовкой и самим мероприятием."
+    show mt smile pioneer at right with dspr
+    mt "А вот уже с завтрашнего дня жду от вас полной отдачи."
+    "Ольга Дмитриевна обратила внимание на прошмыгнувшего мимо Электроника."
+    mt "Сыроежкин! Садись сюда."
+    el "Сейчас, только за подносом сгоняю!"
+    "Кибернетик быстро вернулся со снедью и плюхнулся на свободный стул."
+    window hide
+    show sl smile pioneer at fleft with dspr
+    show mt smile pioneer at fright with dspr
+    show el smile pioneer at center with dspr
+    el "Приветствую, Семён!"
+    el "Я - Электроник, настоящий! Приятно познакомиться со своим новоиспечённым соперником."
+    me "И тебе привет, настоящий Электроник."
+    el "Все кандидаты наконец-то в сборе?"
+    "Он обвёл столик взглядом."
+    me "Мы трое?"
+    mt "Да, и ты самый припозднившийся."
+    me "Выходит, ты тоже кандидат, Славя?"
+    sl "Не просто же так я с тобой за этим столом сижу!"
+    th "Пожалуйста, относитесь ко мне с пониманием, я тугодум."
+    th "Впрочем, отставим лирику."
+    th "Сыроежка - кандидат на пост вожатого. А мне казалось, сегодня меня больше ничто не удивит."
+    th "Из всех нас только Славя подходит на эту роль. Я слишком ленивый и безответственный, а про человека-гриба и говорить нечего."
+    el "Похоже, скоро начнётся серьёзная борьба!"
+    mt "Не торопись соревноваться, Электроник."
+    mt "В первую очередь, вы трое - мои помощники и должны работать сообща."
+    mt "Дух соперничества добавит вам небольшой стимул к работе, но не более."
+    show mt normal pioneer at fright with dspr
+    "Ольга прервалась на полуслове и задумалась."
+    mt "Кстати о работе."
+    mt "Мне вдруг вспомнилось, что ватман для площади ещё не готов. На нём будут отмечаться ваши достижения и участие в жизни лагеря."
+    mt "Утром я его расчертила но имена не вписала, там столбиком нужно..."
+    mt "Сыроежкин, Славя, как закончите, прогуляйтесь до библиотеки, ватман там. Справитесь?"
+    "Они молча покивали."
+    mt "А что до Семёна..."
+    me "А мне бы отдохнуть!"
+    mt "Так и быть, для тебя сегодня сделаем исключение."
+    window hide
+    $ renpy.pause (0.5)
+    scene bg int_din_hall_suns with fade
+    $ renpy.pause (2)
+    "Дальнейший ужин проходил в молчании, разве что Электроник всё время что-то бубнил себе под нос."
+    show el serious pioneer at center with dspr
+    window show
+    el "Имена столбиком... столбиком имена."
+    show el smile pioneer at center with dspr
+    el "Чьё имя будет сверху, тому больше почёта!"
+    show sl surprise pioneer at fleft with dspr
+    show mt shocked pioneer at fright with dspr
+    "Я, Ольга и Славя недоумевающе переглянулись."
+    th "Он этот бред точно из головы берёт?"
+    hide el with dspr
+    "Электроник, перевозбудившийся от своих предположений, схватил поднос и попятился прочь, внимательно наблюдая за Славей."
+    "По пионерке было видно, что ей не особо хочется участвовать в глупом споре с Электроником, но и уступать «место в начале списка» она не желает."
+    menu:
+        "Утрём нос Электронику":
+            me "Если хочешь, оставляй поднос здесь, я унесу за тебя."
+            show sl shy pioneer at fleft with dspr
+            sl "Тебя точно не затруднит?"
+            "Как всегда вежливая Славя, правда уже успела подняться из-за стола."
+            th "Но дежурную фразу-то бросила."
+            "Она уже готовилась стартовать, но за поднос ей было неловко."
+            me "Нисколько не затруднит, дуй уже."
+            "Славя перевела взгляд на Ольгу Дмитриевну, та, в свою очередь, ухмыльнувшись, одобрительно ей кивнула."
+            show sl laugh pioneer at fleft with dspr
+            sl "Ну тогда всем пока!"
+            hide sl with dspr
+            "Пионерка торопливо зашагала к выходу."
+            "Лишь у самой двери она бросила громкое «спасибо», адресованное, очевидно, мне."
+            window hide
+            scene bg int_din_hall_suns with fade
+            show mt laugh pioneer at center with dspr
+            $ renpy.pause (1)
+            window show
+            mt "О, как понеслась!"
+            mt "Подумал о том же, о чём я?"
+            me "Гении мыслят одинаково."
+            "Я заметил Электроника, который возвращался с раздачи. Бросив взгляд на наш стол, он понял свой просчёт и, пробормотав что-то несуразное, тоже со всех ног припустил к выходу."
+            "Зрелище меня изрядно повеселило."
+            show mt grin pioneer with dspr
+            mt "Смейся-смейся! А завтра не заметишь, как с ними наперегонки побежишь."
+            th "Ну уж нет! Я скорее откажусь от всех почестей и просто сдамся без боя."
+            me "Не будем загадывать."
+            window hide
+            $ renpy.pause (1)
+            stop ambience
+            scene bg ext_dining_hall_near_sunset with dissolve
+            play ambience ambience_camp_center_evening
+            $ renpy.pause (1)
+            "С трапезой было покончено, поэтому, попрощавшись с Ольгой Дмитриевной, я покинул столовую."
+            jump Ever_MT_Day1_evening
+        
+        "Остаться в стороне":
+            window hide
+            $ renpy.pause (1)
+            stop ambience
+            scene bg ext_dining_hall_near_sunset with dissolve
+            play ambience ambience_camp_center_evening
+            $ renpy.pause (1)
+            "С трапезой было покончено, поэтому, попрощавшись со всеми, я спешно ретировался."
+            jump Ever_MT_Day1_evening
+            
+label Ever_MT_Day1_evening:
+    "Я чувствовал себя так, словно не спал целую вечность."
+    "За этот вечер я устал и измотался сильнее, чем за весь прошлый цикл."
+    window hide
+    $ renpy.pause (1)
+    scene bg ext_dining_hall_away_sunset with dissolve
+    $ renpy.pause (0.5)
+    show mt normal pioneer with dspr
+    window show
+    "Не успел я сделать и пары шагов, как меня догнала Ольга Дмитриевна."
+    th "А мы сегодня неразлучны."
+    th "Нет, Ольга определённо девушка видная и я совсем не против такой компании, но если это очередное поручение - сахар понесёт сама."
+    show mt smile pioneer with dspr
+    mt "Куда собрался?"
+    me "Куда-куда, спать."
+    mt "Ты хоть знаешь в какой тебе надо домик? Или под открытым небом спать собрался?"
+    me "В ваш, я угадал? Вы же меня туда заселили, верно?"
+    show mt shocked pioneer with dspr
+    "Ольга удивилась, а я продолжил цитировать фразу, которую слышал от неё бесчётное количество раз."
+    me "Потому что мест больше нет, а стесняться вам нечего."
+    window hide
+    $ renpy.pause (0.5)
+    show mt angry pioneer with dspr
+    $ renpy.pause (0.5)
+    window show
+    mt "Зачем мне селить помощника в свой дом? У тебя отдельный."
+    th "Так, на этом моменте поподробнее, пожалуйста."
+    me "Выходит, меня неверно проинформировали..."
+    "Я почувствовал себя ужасно глупо, мне оставалось только по-идиотски смеяться и чесать затылок, надеясь на скорейшее разрешение сей неловкой ситуации."
+    me "Тогда буду рад, если вы меня проводите, хе-хе...хе."
+    th "Идиот есть идиот..."
+    th "Кто тянул меня за язык?"
+    window hide
+    $ renpy.pause (1)
+    scene bg ext_houses_sunset with fade
+    $ renpy.pause (1)
+    show mt normal pioneer with dspr
+    window show
+    mt "Поскольку ты живёшь один в отдельном домике, соблюдение порядка в нём полностью возложено на тебя."
+    th "Порядок в моём домике... Где-то я это уже слышал."
+    window hide
+    scene bg semen_room with flash
+    show prologue_dream
+    $ renpy.pause (1.5)
+    scene bg ext_houses_sunset with dissolve
+    show mt shocked pioneer with dspr
+    window show
+    mt "Я сказала что-то смешное?"
+    me "Нет, просто я кое-что вспомнил."
+    show mt smile pioneer with dspr
+    mt "Судя по всему, воспоминание приятное."
+    me "Я бы не сказал, что приятное, но и негатива не вызывает. О доме оно, вот."
+    mt "Ностальгия, значит?"
+    me "Она самая."
+    mt "Если скучаешь по дому, не стесняйся, можешь смело мне всё рассказать. Уж здесь мы найдём, чем тебя отвлечь."
+    th "Отвлечь..."
+    "Моя богатая фантазия сделала своё дело, придав двусмысленности самым обычным словам."
+    "Но опомнился я быстро."
+    me "Нет, что вы! Мне здесь нравится."
+    mt "А скоро понравится ещё больше."
+    me "Охотно вам верю."
+    window hide
+    $ renpy.pause (0.5)
+    scene bg ext_house_of_se_sunset with dissolve
+    $ renpy.pause (0.5)
+    show mt smile pioneer with dspr
+    $ renpy.pause (1)
+    window show
+    mt "Пришли."
+    me "Я пойду, коли так?"
+    mt "Добрых снов, не забывай про чистоту и порядок."
+    me "Вам тоже хорошего вечера."
+    window hide
+    $ renpy.pause (1)
+    stop ambience
+    play sound sfx_close_door_campus_1
+    scene bg int_house_of_se_sunset with dissolve
+    $ renpy.pause (1.5)
+    window show
+    th "Дом, милый дом?"
+    "На столике красовался мой неизменный и бессмертный магнитофон «Весна», а на застеленной кровати лежал драгоценный рюкзак с набором стиляги."
+    th "Она сама принесла мои вещи? Или запрягла сахаротаскателей?"
+    th "А я и забыл почти."
+    th "Неловко получается - чужие люди пекутся о моих вещах гораздо сильнее, чем я сам."
+    "Я уселся на кровать и оглядел комнату."
+    th "Новая жизнь, ты ли это? Надеюсь, мне здесь понравится."
+    window hide
+    show blink
+    $ renpy.pause (2)
+    play sound sfx_ph_al
+    scene bg int_house_of_se_sunset with flash
+    $ renpy.pause (0.5)
+    window show
+    play music music_list["you_lost_me"] fadein 3
+    "Великий неждан снова напомнил о себе, как бы намекая, что с сюрпризами на сегодня не покончено."
+    "Если быть точнее, теперь он предстал в лице мобильника, который снова подавал признаки жизни."
+    "Я извлёк телефон из кармана и с любопытством начал его разглядывать."
+    "Разглядывать до тех пор, пока экран внезапно не включился."
+    window hide
+    $ renpy.pause (0.5)
+    show dev_angry_glass with dspr
+    window show
+    telep "АААА! Я заберу твою душу, смертный!" with hpunch
+    window hide
+    play sound sfx_break_flashlight
+    hide dev_angry_glass
+    $ renpy.pause (0.5)
+    "Я не успел даже толком испугаться, лишь громко вскрикнул и отправил аппарат в свободный полёт по комнате."
+    "Звонко ударившись о стену напротив, телефон приземлился на деревянный пол, а я забился в самый угол своей кровати."
+    telep "Я всё равно доберусь до тебя! Я буду убивать, убивать всё что шевелится. Тебя в том числе, красавчик!"
+    telep "Шучу, шучу."
+    telep "Не красавчик."
+    telep "Так вот, весь мир будет трепещать, когда я захвачу его!"
+    telep "Эй, ты вообще меня там слушаешь?"
+    telep "Знаешь, неприлично так молчать, когда с тобой пытаются вести беседу."
+    window hide
+    scene bg int_house_of_se_sunset with fade
+    $ renpy.pause (0.5)
+    window show
+    "Я просидел минут двадцать в абсолютном оцепенении, но телефон никак не затыкался, продолжая вести свой монолог."
+    telep "Эй! Подними меня уже с пола! Здесь скучно!"
+    me "..."
+    me "Святая Мария, матерь божья, спаси душу мою грешную."
+    telep "В религию решил податься? Боюсь, от неё здесь мало толку!"
+    me "Святая Мария, матерь божья, Святая Мария, матерь божья, Святая Мария, матерь божья..."
+    telep "Ладно, не бойся меня, подойди, ничего я тебе не сделаю!"
+    telep "Мужик, приходи в себя, а то я уже сам начинаю пугаться. Не очень хочется провести вечность в одной комнате с сумасшедшим, знаешь ли."
+    telep "Совсем приколов не понимаешь, к кому я вообще попал?"
+    telep "До чего скучный тип."
+    "Я был всё ещё напуган, но интерес взял надо мной верх."
+    th "Что он мне может сделать, в конце концов? Это всего лишь телефон или, по крайней мере, сущность, заточённая в него."
+    "Я аккуратно приблизился к телефону."
+    me "Точно не будешь пытаться убить меня?"
+    stop music fadeout 3
+    telep "Честное пионерское, начальник! Поднимай уже."
+    me "Только без фокусов!"
+    window hide
+    show dev_cuteface with dspr
+    $ renpy.pause (0.5)
+    telep "Не бойся меня, семпааай."
+    th "Какая милота."
+    me "Но кто ты? И почему ты в моём телефоне?"
+    telep "Я - эльфийская принцесса Нина!"
+    hide dev_cuteface with dspr
+    show dev_cuteface_2 with dspr
+    telep "Ужасный злодей захватил мои земли, а меня заколдовал!"
+    me "Как это произошло?"
+    telep "Он...он..."
+    me "Ну же, что он сделал?"
+    telep "Он использовал свою волшебную палочку не по назначению!"
+    me "Чего?!"
+    hide dev_cuteface_2 with dspr
+    show dev_laugh with dspr
+    telep "Бу-га-га!"
+    telep "Снова попался, четырёхкулачный!"
+    me "Да что ты такое?!"
+    hide dev_laugh with dspr
+    show dev_serious with dspr
+    telep "Я? Ну, смотря с какой стороны посмотреть."
+    telep "Я - таинственный голос внутри твоего гаджета, но при этом ты не шизофреник."
+    me "Сири?"
+    hide dev_serious with dspr
+    show dev_dontlike with dspr
+    telep "Что? Кто? Ай, тьфу на тебя! Конечно нет, господи."
+    hide dev_dontlike with dspr
+    show dev_normal_1
+    telep "Послушай, я сам не в курсе, что стряслось, посему твои расспросы здесь неуместны. "
+    me "Не понимаю, как ты залез в мой телефон?"
+    telep "И он продолжает их задавать... Кого мне вообще подсунули, дайте адекватного человека!"
+    telep "Повторяю ещё раз: я не знаю! Лучше ты мне объясни!"
+    hide dev_normal_1 with dspr
+    show dev_laugh with dspr
+    telep "Очнулся, смотрю ты - лёгкая жертва, грех не напугать."
+    "Таинственный голос снова принялся заливаться своим специфичным смехом, больше напоминающим гогот гиены."
+    me "Ты...ты... ты просто... ты просто Дьявол."
+    hide dev_laugh with dspr
+    show dev_normal_1 with dspr
+    de "Ну палку-то не перегибай, я вовсе не злой, просто... настолько мастерски владею сарказмом что сам иногда не понимаю когда я шучу, а когда говорю серьёзно."
+    de "Так что, Семёнчик, сработаемся?"
+    me "Если перестанешь меня пугать."
+    hide dev_normal_1 with dspr
+    show dev_cuteface with dspr
+    de "Я же тебя обожаю, Семпааай."
+    me "И без этого тоже давай обойдёмся."
+    hide dev_cuteface with dspr
+    show dev_normal_1 with dspr
+    de "Судя по сегодняшнему дню, твой лагерь обновился."
+    de "Что же, будем вникать в курс дела. Это я про себя."
+    me "Мысли мои тоже читаешь?"
+    de "Д... Нет, немножко совсем."
+    th "Приехали."
+    th "Если забег по полю был вовсе не сном, не могла ли молния, ударив в телефон, вызвать короткое замыкание?"
+    de "Только не вспоминай этот ужасный фильм! Я себя не на помойке нашёл!"
+    me "Не знаю, что с тобой делать, поэтому оставлю всё, как есть."
+    me "Только постарайся не разговаривать со мной слишком часто, и уж тем более не подавай голоса в присутствии окружающих."
+    me "А то меня на костре сожгут за колдовство."
+    de "Ха! А я бы на это посмотрел! Ладно, так или иначе я сижу в твоём телефоне, поэтому право последнего слова всегда за тобой. Постараюсь помалкивать."
+    de "Но буду внимательно тебя слушать."
+    me "Этим тоже не увлекайся."
+    hide dev_normal_1 with dspr
+    "Дьявол  успешно приземлился в мой карман, а я сам - на кровать."
+    "Уставившись в потолок я снова тяжело вздохнул."
+    window hide
+    $ renpy.pause (0.5)
+    show blink
+    $ renpy.pause (4)
+    $ night_time ()
+    play music olm_eveningsong fadein 3
+    scene bg int_house_of_se_night_nolight with dissolve
+    $ renpy.pause (2)
+    window show
+    me "Проспал несколько часов, а чувствую себя так, словно разгружал товарняк, одновременно с этим решая задачи по квантовой физике."
+    me "Может быть, последние полдня и вовсе были сном, а я всё ещё вижу его, продолжая лежать в том давнем злополнучном лесу, объевшись галлюциногенными грибами?"
+    "Голос из кармана почти сразу привёл меня в чувство."
+    de "Не хочу ломать спектакль, но я слишком хорош для того, чтобы быть галлюцинацией."
+    me "Всё-таки не сон."
+    de "Чем быстрее до тебя это дойдёт, тем быстрее ты перестанешь мучить себя бесполезными размышлениями."
+    de "Создать мир легче, чем понять его. Стоит ли тогда напрягаться?"
+    me "Ты ещё и философ?"
+    de "Поживёшь в кармане - и не такое придумаешь."
+    "В этот раз ответом моему новому спутнику было молчание."
+    "Возможно, я просто не хотел с ним разговаривать."
+    "Но, скорее всего, прислушался к его словам."
+    play sound sfx_bed_squeak1
+    "Тяжело поднявшись с кровати, я зашагал к двери."
+    window hide
+    $ renpy.pause (1)
+    play sound sfx_open_door_1
+    scene black with dissolve
+    $ renpy.pause (2)
+    play ambience ambience_lake_shore_night
+    scene bg ext_beach_night with dissolve2
+    $ renpy.pause (2)
+    window show
+    "Не смотря на полную неразбериху в голове, моё самочувствие заметно улучшилось."
+    "Окружающий меня мир был всё таким же родным и тёплым, разве что обновился немного... Словно стал живым, реальным?"
+    th "По эту сторону рая погода, что надо!"
+    "Ранее, в предыдущих циклах, я как будто смотрел на картину происходящего через розовые очки."
+    "А сейчас, сняв эти очки, понимаю, что картина была розовой сама по себе. Только её натуральный розовый цвет оказался гораздо приятнее и дружественнее."
+    "Теперь же, наслаждаясь моментом спокойствия и вдыхая прохладный ночной воздух, приправленный ароматом цветущей сирени, я созерцаю этот мир, чувствую его всем своим естеством."
+    th "Новая жизнь, ты ли это? Ты не представляешь, как же я рад тебя видеть..."
+    stop music fadeout 4
+    window hide
+    scene black with dissolve
+    stop ambience
+    $ renpy.pause (5)
+    $ sunset_time ()
+    play ambience ambience_camp_center_day
+    play music olm_rockmorning
+    $ volume (0.1, 'music') 
+    scene bg ext_house_of_se_sunset with dissolve
+    $ renpy.pause (3)
+    stop ambience
+    scene bg int_house_of_se_sunset with dissolve
+    $ volume (0.5, 'music')
+    $ renpy.pause (1)
+    window show
+    "Я подпрыгивал на месте, натягивая штанину под раскаты метала."
+    "Шёл третий день моего пребывания в этом странном цикле и, как я успел выяснить, меня занесло аж в самые первые дни смены, которая только начинала набирать обороты."
+    "Весь вчерашний день я, по большей части, растратил впустую, стараясь избегать обязанностей помощника вожатой и, привычно, заново знакомясь с некоторыми обитателями Совёнка."
+    show dev_normal_1 with dspr
+    de "Эй, прибавь звук, я хочу, чтобы весь лагерь слышал, под какую музыку надо встречать рассветы!"
+    window hide
+    with vpunch
+    $ volume (0.9, 'music')
+    $ renpy.pause (0.5)
+    hide dev_normal_1 with dspr
+    show dev_laugh with dspr
+    window show
+    de "О да! Я чувствую себя молодым Полом Стэнли!"
+    me "А ты разве старый?"
+    hide dev_laugh
+    show dev_normal_1 with dspr
+    de "Это было образное выражение, балда!"
+    de "И вообще, поторопись на линейку, если не хочешь, чтобы вчерашняя история повторилась."
+    me "Брось, всё было не так ужасно!"
+    hide dev_normal_1 with dspr
+    show dev_dontlike with dspr
+    de "НЕ УЖАСНО, ГОВОРИШЬ?"
+    de "Ты проспал линейку и решил пропустить вообще всё на свете!"
+    de "А мне пришлось выслушивать твои идиотские монологи: «Я Семён, меня никто не любит, я битард-задрот, который никогда не видел женские...»"
+    hide dev_dontlike with dspr
+    de "Ээй! Достань меня обратно, я не закончил!"
+    me "Когда научишься не перевирать чужие слова, тогда и поговорим."
+    show dev_normal_1 with dspr
+    de "Да ладно тебе обижаться. Я просто пытаюсь тебя взбодрить."
+    de "Оглядись вокруг: свежий воздух, природа, солнце, милые девушки!"
+    me "Что-то мне подсказывает, тебя заботит только последнее."
+    de "Угадал!"
+    me "Ты неисправим."
+    de "О тебе же беспокоюсь."
+    de "Всей твоей жизни не помешает женский взгляд! И я сейчас говорю совсем не о любви."
+    de "Взять хотя бы вот этот бардак в твоей комнате. Не задумывался о соседке?"
+    me "Во-первых, не лезь не в своё дело, а, во-вторых, мальчикам с девочками жить запрещено, неужели не знал?"
+    de "А если бы мог, кого пригласил бы жить?"
+    menu:
+        "Так я тебе и сказал":
+            hide dev_normal_1 with dspr
+            show dev_dontlike with dspr
+            de "Скучный ты."
+            
+        "Есть кое-кто":
+            de "Да? И кто наша счастливица?"
+            menu:
+                "Лена":
+                    de "Чтобы вы целыми днями сидели взаперти, погрузившись в грусть и социофобию? На это у тебя есть я."
+                    me "Правда?"
+                    de "Шучу, я с тобой сидеть не буду."
+                
+                "Ольга":
+                    de "Вот уж поистине странный выбор. Я всегда подозревал, что ты мазохист."
+                    me "Ну тебя!"
+                
+                "Мику":
+                    de "Два совершенно противоположных человека под одной крышей. Я бы посмотрел на это."
+                    me "Не дождёшься."
+                    
+    "Болтовня болтовнёй, а мне стоит поторопиться."
+    window hide
+    $ renpy.pause (0.5)
+    stop music fadeout 5
+    play ambience ambience_camp_center_day
+    scene bg ext_square_sunset with dspr
+    $ renpy.pause (2)
+    window show
+    "Наспех покончив с утренними процедурами, я оказался на площади."
+    "В этот раз я пришёл заведомо раньше и успел до начала утренней линейки."
+    th "И снова это место, и опять весь лагерь в сборе."
+    th "Кто бы мог подумать, что в лагере так много пионеров? Раньше я не обращал на это внимания."
+    window hide
+    play music music_list["everyday_theme"] fadein 4
+    scene cg d2_lineup with dissolve
+    $ renpy.pause (1)
+    window show
+    "Первым делом, все вожатые уделили часть времени своим отрядам."
+    "На удивление, мероприятие проходило спокойно и скучно."
+    "Я уже почти разочаровался в своём раннем пробуждении, как вдруг..."
+    window hide
+    $ renpy.pause (0.5)
+    scene bg ext_square_sunset with dissolve
+    show mt_smile_panama_far with dspr
+    $ renpy.pause (0.5)
+    window show
+    "Ольга Дмитриевна переключилась к выступлению на широкую публику."
+    mt "Также хочется затронуть тему конкурса наших помощников."
+    mt "Было бы крайне несправедливо, если бы их работу оценивали только мы - вожатский состав."
+    mt "Поэтому принимать решение будет весь лагерь! В конце смены мы проведём самое настоящее голосование!"
+    th "А я думал, хуже быть не может."
+    th "Полагаю, можно собирать вещи и убегать в лес?"
+    th "Либо так, либо публичный позор."
+    mt "А сейчас помощникам предстоит первый конкурс."
+    th "Прикрепи хвост ослу?"
+    mt "Они закроют линейку, поочерёдно выступив перед вами с устными докладами!"
+    th "Почти угадал."
+    mt "Как вы помните, помощникам была дана одна общая тема на вольное сочинение."
+    mt "Тема - «Мой личный вклад в развитие лагеря»."
+    sl "Се-мён."
+    hide mt_smile_panama_far with dspr
+    show sl smile pioneer at right with dspr
+    "Лёгкий хлопок по плечу заставил меня обернуться."
+    me "И тебе привет."
+    sl "Ты не против, если я выступлю первой?"
+    me "Я только за."
+    th "Особенно если учесть, что я вообще не готовился ни к какому конкурсу. Даже банально не знал о нём."
+    show sl smile2 pioneer 
+    sl "Спасибо, тогда я..."
+    "Воспользовавшись заминкой, Электроник прошмыгнул мимо нас."
+    show el serious pioneer at cleft with dspr
+    show sl angry pioneer at right with dspr
+    "Самый ядовитый гриб лагеря вывалился в центр площади."
+    el "Прошу внимания, друзья-товарищи!"
+    hide sl with dspr
+    show el serious pioneer far at center with dspr
+    el "Я готов представить вам свою речь!"
+    hide el with dspr
+    window hide
+    $ renpy.pause (0.5)
+    window show
+    show el smile pioneer far with dspr
+    el "Ребята! Вы когда-нибудь размышляли о будущем?"
+    th "Я там был - жалкое зрелище."
+    el "Наверняка все вы задумывались, каким же оно будет, это самое будущее."
+    el "Одно скажу вам, друзья-товарищи, точно!"
+    el "Новые технологии не за горами!"
+    "Я громко зевнул."
+    window hide
+    scene bg ext_square_sunset with fade
+    show el smile pioneer far with dspr
+    $ renpy.pause (1)
+    window show
+    el "На этом всё, друзья-товарищи, расчитываю на вашу помощь в построении высокотехнологичного лагеря!"
+    hide el with dspr
+    th "А...что? Когда он успел закончить?"
+    show dv normal pioneer at left with dspr
+    dv "Какой напыщенный болван."
+    "Потенциальный рыжеволосый избиратель был не в восторге от выступления Электроника. Может быть, переманить его голос к собственной персоне?"
+    me "Соглашусь, обещания на уровне сказок Андерсена."
+    me "А чего бы ты хотела от лагеря?"
+    dv "Чтобы этот болван исчез."
+    me "Я слышал, у Волги, что припаркована возле столовой, достаточно вместительный багажник."
+    window hide
+    $ renpy.pause (1)
+    show dv laugh pioneer at left with dspr
+    $ renpy.pause (1)
+    hide dv with dspr
+    $ renpy.pause (0.5)
+    window show
+    "Сразу после Электроника выступала Славя."
+    "Выступала, кстати говоря, очень неплохо."
+    "По крайней мере, мне было приятно послушать хотя бы одного адекватного человека."
+    window hide
+    scene bg ext_square_sunset with fade
+    show sl smile pioneer far with dspr
+    window show
+    "Но даже она умудрилась начать разбрасывать обещания."
+    th "Да это не линейка, а какая-то предвыборная кампания!"
+    th "Как будто речь идёт не о посте вожатого в летнем пионерлагере, а о целом государстве."
+    th "Впрочем, мне же проще."
+    th "Наобещаю им такого, от чего у всех снесёт крышу и голоса в моём кармане."
+    th "Всё равно я не могу относиться серьёзно к этим состязаниям."
+    th "Я даже кандидатом стал не по собственной воле!"
+    th "Буду действовать по своим правилам."
+    "Незаметно проскользнув между шеренгами, я побежал со всех ног."
+    "Славя заканчивала свою речь. Времени было чересчур мало."
+    window hide
+    $ renpy.pause (0.5)
+    scene bg ext_square_sunset with dissolve
+    $ renpy.pause (1)
+    show sl smile pioneer far at right with dspr
+    sl "На этом у меня всё. Благодарю всех вас за внимание!"
+    show mt_normal_panama_far at left with dspr
+    mt "Большое спасибо за чудесную речь, Славя."
+    mt "И у нас на очереди последний кандидат - Семён."
+    mt "Только где он?"
+    mt "Что-то я его не вижу..."
+    stop music
+    scene bg ext_houses_sunset with dissolve
+    play music olm_action_1 fadein 2
+    $ renpy.pause (2)
+    scene bg ext_houses_sunset:
+        pos (0,0) 
+        linear 0.1 pos (-5,-5) 
+        linear 0.1 pos (5,5) 
+        pos (0,0) 
+        linear 0.1 pos (0,-5) 
+        linear 0.1 pos (0,5) 
+        repeat 
+    with dissolve
+    "Я нещадно крутил педали розового велосипеда, позаимствованного возле соседского домика."
+    "Наспех привязанный к раме магнитофон то и дело норовил упасть, раскачиваясь из стороны в сторону, а массивный громкоговоритель в правой руке мешал нормально рулить."
+    "Моя пионерская форма успела обрасти рваной джинсовой жилеткой, а на голове у меня красовался синий скаутский берет."
+    show dev_laugh with dspr
+    de "Йо-хо-хо! Задраить люки, летим на всех парусах!"
+    de "А мне казалось, из нас двоих я главный псих!"
+    de "Думаешь, тебе вот так просто всё сойдёт с рук?"
+    "Я ничего не ответил своему сердечному другу."
+    "Моя безмятежная улыбка говорила сама за себя."
+    th "Привнесём дух свободы в пионерские ряды!"
+    th "Да простит меня товарищ Ленин..."
+    window hide
+    $ renpy.pause (0.5)
+    scene bg ext_square_sunset with dissolve
+    $ renpy.pause (0.5)
+    show mt_shocked_panama_far with dspr
+    window show
+    "Я влетел на площадь с огромной скоростью." with vpunch
+    mt "Семён, ты чего делаешь?"
+    me "Извините за опоздание."
+    hide mt_shocked_panama_far with dspr
+    "Полностью проигнорировав вожатую, я остановил транспортное средство на некотором расстоянии от неё."
+    $ volume (0.3,'music')
+    "Оставив своего железного коня, я вышел в центр площади и молча осмотрел окружающую меня толпу."
+    "Кнопка громкоговорителя зажата, представление начинается."
+    window hide
+    $ renpy.pause (0.5)
+    scene cg semen_rech_0 with dissolve
+    $ renpy.pause (0.5)
+    window show
+    me "Приветствую вас, собратья по несчастью!"
+    "Из рядов пионеров послышались несколько радостных возгласов."
+    "Но большая часть населения лишь хлопала глазами, не понимая происходящего."
+    "Меня это нисколько не смутило."
+    me "Я хочу задать вам один вопрос."
+    me "По вашему, что такое юность?"
+    me "Никто не хочет ответить?"
+    window hide
+    $ renpy.pause (0.5)
+    scene bg ext_square_sunset with dissolve
+    $ renpy.pause (0.5)
+    window show
+    "Я прошёлся кругом по площади, предлагая всем громкоговоритель."
+    me "Понимаю, вы боитесь отвечать."
+    me "Но я озвучу то, о чём все подумали."
+    me "На протяжении многих лет вам вбивают в голову, что эта прекрасная пора нужна для учёбы, глупых правил и ещё раз учёбы."
+    play sound sfx_micro_noise
+    scene cg semen_rech_1 with dissolve
+    me "ВЫ ОШИБАЕТЕСЬ!" with hpunch
+    me "Юность - это одна большая абстракция."
+    me "Это время, когда мы не просто можем, мы должны делать всё, что заблагорассудится!"
+    me "Мы должны совершать миллионы ошибок, вляпываться в неприятности и творить прочие глупости."
+    me "Почему - спросите вы."
+    play sound sfx_micro_noise
+    me "А Я ОТВЕЧУ!" with hpunch
+    window hide
+    $ renpy.pause (0.5)
+    scene cg semen_rech_2 with dissolve
+    $ renpy.pause (0.5)
+    window show
+    me "Потому что потом будет поздно!"
+    me "Однажды настанет момент, когда вы поймёте! - Этой поры больше не вернуть."
+    me "Вы будете с сожалением вспоминать это дивное время и грезить о том, чего не сделали."
+    me "Хотите так жить?"
+    "Из першёптывающихся между собой рядов послышались недовольные возгласы."
+    me "Я тоже не хочу!"
+    me "Давайте вместе изменим лагерь, вместе перестроим его для себя!"
+    me "Долой скучные занятия, мы хотим веселиться!"
+    "Я выдержал паузу, тяжело дыша, а затем тихо произнёс."
+    me "Вы согласны со мной?"
+    "А после и вовсе закричал во всё горло."
+    window hide
+    scene bg ext_square_sunset with dissolve
+    $ renpy.pause (0.5)
+    window show
+    play sound sfx_micro_noise
+    me "ВЫ СОГЛАСНЫ СО МНОЙ?!" with hpunch
+    stop music
+    window hide
+    $ renpy.pause (2)
+    $ volume (0.9,'music')
+    scene bg ext_square_pink with flash
+    play sound sfx_ovation
+    $ renpy.pause (1)
+    window show
+    "Час триумфа."
+    "Несколько десятков, а, может быть и сотен пионеров ликовали и аплодировали мне."
+    de "Скорее час твоего ребячества."
+    "Я заметил несколько злых лиц вожатского состава, но никто из них не осмелился ко мне подойти."
+    "Я покидал сцену с чувством тотальной и бескомпромиссной победы."
+    th "Абсолютная победа! Херо камбэк!"
+    window hide
+    scene black with dissolve2
+    $ renpy.pause (2)
+    window show
+    "Вскоре пионеров утихомирили и линейка продолжилась своим чередом, словно и не было моего мастерского представления."
+    window hide
+    scene bg ext_square_sunset with dissolve
+    $ renpy.pause (1)
+    window show
+    show mt_grin_panama with dspr
+    mt "Большое спасибо, ребята."
+    mt "Очень {b}занимательные{/b} получились выступления."
+    window hide
+    hide mt_grin_panama with dspr
+    show mt_angry_panama with dspr
+    $ renpy.pause (0.3)
+    hide mt_angry_panama with dspr
+    show mt_grin_panama with dspr
+    $ renpy.pause (1)
+    window show
+    "Ольга Дмитриевна бросила короткий злобный взгляд в сторону нашего отряда, но я точно знал, кому этот взгляд был адресован."
+    th "В любом случае, это было явно лучше, чем если бы я просто молчал."
+    mt "А мы переходим ко второму этапу состязания."
+    mt "Каждый помощник получит индивидуальное пионерское поручение!"
+    th "Решили не париться и просто загрузить нас скучной работой?"
+    mt "Но не беспокойтесь, в одиночку никому выполнять их не придётся. Какие поручения без командной работы?"
+    hide mt_grin_panama with dspr
+    show mt normal pioneer with dspr
+    "Вожатая сняла панаму и, перевернув головной убор, закинула в него откуда-то заготовленные фанты."
+    mt "Всё просто, здесь три имени."
+    mt "Чьё вытягиваете - тому человеку помогаете на протяжении всего дня."
+    th "Конкурсное поручение, значит? Отличный способ впарить людям унылое подметание площади под красивой обёрткой."
+    show mt grin pioneer with dspr
+    mt "Первым вытягивает наш самый эксцентричный кандидат."
+    th "Решила сыграть со мной в игру? Хорошо, в неё можно играть и вдвоём."
+    me "Я не только эксцентричен, но ещё и обладаю хорошими манерами."
+    "Я отступил в сторону, освобождая путь стоявшей позади меня Славе."
+    "Пригласительного взмаха руки оказалось достаточно, чтобы девочка засмущалась, но быстро поняла что от неё требуется."
+    hide mt with dspr
+    sl "Мику!"
+    th "Возможно, не самый лучший вариант."
+    "Мой взгляд случайно упал на Женю, которая за что-то вполголоса отчитывала Шурика и Электроника."
+    th "Но и не худший."
+    "Покинув ряд, я лениво побрёл через площадь навстречу Ольге Дмитриевне, как вдруг услышал тихий голос из кармана."
+    de "Нет времени объяснять, у меня для тебя важная информация!"
+    de "Можешь считать меня экстрасенсом, но я знаю, чьи имена написаны на листочках."
+    de "Слушай меня внимательно. Как ты уже понял, в панамке осталось две бумажки, тебе и Электронику по паре."
+    de "На той бумажке, которая левее - написано Женя."
+    de "А на той, что правее, Ольга написала своё имя."
+    "Я подошёл к Ольге Дмитриевне и опустил руку в панамку."
+    menu:
+        "Вытянуть Женю":
+            play sound sfx_dev_electroshock
+            me "Ай!"
+            "Я подпрыгнул на месте от резкого удара током."
+            th "Вот зараза!"
+            me "Прошу прощения, сейчас вернусь."
+            "Оставив всех в полном смятении, я, буквально сорвавшись с места, быстро покинул площадь."
+            window hide
+            scene bg ext_path2_day with dissolve
+            "И осел в ближайших кустах."
+            me "Ты что творишь? Убить меня захотел?!"
+            show dev_dontlike with dspr
+            de "Не, это ты что творишь?"
+            de "Женю выбирать собрался, сдурел совсем?"
+            de "Прости, но я не записывался в клуб самоубийц."
+            me "Ты решил шваркнуть меня электричеством, лишь потому, что я выбрал Женю, серьёзно?"
+            de "Ничего не знаю, делай другой выбор."
+            me "Тебя забыл спросить!"
+            me "Захочу, вообще женюсь на нашей ненаглядной библиотекарше и ты меня не остановишь, пластмассовый садист!"
+            window hide
+            play sound sfx_dev_electroshock
+            scene white with dissolve
+            $ renpy.pause (2)
+            scene bg ext_square_sunset with dissolve
+            $ renpy.pause (1)
+            window show
+            "Имя Ольга красовалось на только что вытянутом мною помятом кусочке бумаги."
+            
+            jump Ever_MT_Day2_afterchoice
+        
+        "Вытянуть Ольгу":
+            jump Ever_MT_Day2_afterchoice
+            
+label Ever_MT_Day2_afterchoice:
+    show mt sad pioneer with dspr
+    mt "А вот и мой помощник на весь оставшийся день."
+    th "Так, я не понял..."
+    th "Она разочарована тем, что ей достался я?"
+    th "Хотя, чему здесь удивляться? Я - эталон безответственности."
+    th "Но зато..."
+    th "......."
+    th "У меня доброе сердце, вот!"
+    window hide
+    $ renpy.pause (1)
+    $ day_time ()
+    $ persistent.sprite_time = 'day'
+    stop ambience
+    play ambience ambience_camp_center_day
+    scene bg ext_dining_hall_away_day with fade2
+    $ renpy.pause (2)
+    window show
+    th "И вообще, чего ей жалеть-то? Это я могу пожалеть о своём выборе."
+    th "К тому же, я умудрился избежать работы до самого обеда."
+    th "Если так продолжать и дальше, никаких поручений мне сегодня не светит."
+    window hide
+    $ renpy.pause (0.5)
+    stop ambience
+    play ambience ambience_dining_hall_full
+    scene bg int_dining_hall_day with dspr
+    $ renpy.pause (0.5)
+    window show
+    "Примерно с теми же мыслями я тоскливо ковырял вилкой содержимое тарелки."
+    show mi normal pioneer at right with dspr
+    show un normal pioneer at left with dspr
+    "Когда я поднял свои задумчивые глаза, то ненароком заметил двух знакомых представительниц прекрасного пола, которые проходили мимо, болтая друг с другом о чём-то своём."
+    show mi grin pioneer at right with dspr
+    show un shy pioneer at left with dspr
+    "Каждая отреагировала на меня по-своему."
+    window hide
+    scene bg int_dining_hall_day with fade
+    show cs normal at cleft with dspr
+    $ renpy.pause (0.5)
+    window show
+    cs "На тебе совсем лица нет, пионер."
+    "Любопытный изучающий взгляд напротив меня, казалось, уже изучил всё, что только можно."
+    "Я сидел за одним столом с Виолой. Нет, неверное, она сидела со мной за одним столом - я пришёл раньше."
+    cs "Ну же, не молчи, пионер."
+    cs "Поделись со мной своими проблемами, я всё-таки врач по призванию, чем смогу - помогу."
+    me "А что бы вы чувствовали, если бы вам предстоял целый день утомительных занятий и дел?"
+    show cs shy at cleft with dspr
+    cs "Смотря каких дел."
+    "Медсестра, на привычный ей манер, излучала бесстыдную вульгарность."
+    "Не могу сказать, что мне это не нравится, но... это слишком!"
+    me "Совершенно скучных и бесполезных дел."
+    me "Дел, от которых так и тянет повеситься."
+    "Я наигранно натянул на шее невидимую верёвку."
+    show cs normal at cleft with dspr
+    "Пыла у медсестры поубавилось."
+    "Она замолчала и приняла настолько серьёзный вид, будто пыталась решить проблему таяния ледников на Северном полюсе."
+    "А затем изложила свои мысли."
+    cs "Отлынивать не пробовал?"
+    th "И это говорит мне человек из персонала лагеря?"
+    me "Опять по грибы я не хочу."
+    cs "Тогда даже не знаю, пионер."
+    me "Вот и я не знаю, куда мне теперь деваться."
+    show mt normal pioneer at right with dspr
+    mt "Смирись и выполняй."
+    "Нашу и без того колоритную компанию разбавила Ольга Дмитриевна."
+    "Что странно, её настроение в корень изменилось."
+    me "Подслушиваете?"
+    mt "Ты чересчур волнуешься, Семён. Никакой каторжной работы не будет."
+    window hide
+    $ renpy.pause (1)
+    scene black with dissolve
+    $ renpy.pause (1)
+    stop ambience
+    $ renpy.pause (2)
+    scene bg int_house_of_mt_day with dissolve
+    play ambience ambience_camp_center_day
+    $ volume (0.3, 'ambience')
+    $ renpy.pause (2)
+    window show
+    "Вот он я, стою, словно швейцар, переполненный ожиданиями."
+    "А всё потому, что кое-кто крайне вежливо попросил подождать здесь."
+    th "Сколько помню нашу вожатую, она всё время норовит отдохнуть, заодно перекинув груз работы на чужие плечи."
+    th "Так, может, помогу ей отдыхать?"
+    th "Мечты, мечты."
+    th "Скорее стану тем самым счастливчиком, на чьи плечи перекинут груз."
+    play sound sfx_open_door_1
+    show mt normal pioneer at right with dspr
+    th "А вот и она."
+    mt "Не хочешь объясниться?"
+    me "За что?"
+    show mt angry pioneer at right with dspr
+    mt "За что?! Да хоть за выходки на площади, например?"
+    mt "Я еле сдержалась, чтобы не опозорить тебя прямо там. При всех!"
+    mt "Думаешь, мне в радость, что ты будешь работать со мной? Ты ходячая катастрофа!"
+    me "Считайте меня плохим полицейским, а вы будете хорошим."
+    me "Я страшный Бармалей, пугающий детей, а вы доктор Айболит, к кому они в страхе побегут за ценным нравоучением."
+    mt "Ты хоть понимаешь, как нелепо это звучит?"
+    me "Возможно."
+    me "Просто у меня своя воспитательная методика."
+    mt "Правда? И как она называется?"
+    me "Хмммм."
+    me "Метод «пряника и пряника»."
+    mt "Ты его только что придумал!"
+    me "Нет, на самом деле, этот метод крайне прост."
+    mt "Поиздеваться вздумал?"
+    "Я принял наиважнецкий вид и, заведя руки за спину, принялся ходить по комнате вперёд-назад."
+    me "Берём очень невоспитанного пионера и предлагаем ему пряник. Если не помогло, даём ему пряник ещё больше."
+    me "Пионер продолжает вести себя скверно? - Ещё один пряник."
+    me "Снова не помогло? - Перезарядить и повторить!"
+    me "И так кормим нашего неслуха пряниками до тех пор, пока его не начнёт от них тошнить!"
+    de "А если хотите узнать продолжение, покупайте наш видеокурс всего за 9,99!" with vpunch
+    "На несколько секунд в помещении воцарилось молчание."
+    play sound_loop sfx_heart_situation
+    window hide
+    $ renpy.pause (0.5)
+    show mt shocked pioneer at right with dspr
+    $ renpy.pause (0.5)
+    mt "Это...это..."
+    "Вожатая испуганно замерла, широко раскрыв глаза."
+    mt "Что это было?"
+    th "Етить меня лопатой, и кто тянул его за язык?!"
+    th "Надо срочно что-то предпринять, пока никто не вызвал Святую инквизицию."
+    show dev_normal_1 with dspr
+    "Дрожащей рукой я достал телефон из кармана."
+    me "Смотрите, это просто игрушка."
+    de "По-твоему просто игрушка может так?"
+    hide dev_normal_1
+    show dev_cuteface with dspr
+    de "Охайо, Оля-семпай!"
+    mt "По...нятно."
+    stop sound_loop
+    hide dev_cuteface with dspr
+    hide mt with dspr
+    play music music_list["revenga"] fadein 2
+    "Ольга камнем полетела вниз."
+    window hide
+    $ renpy.pause (0.5)
+    play sound sfx_bodyfall_1
+    "Я и сам чуть не споткнулся, когда ринулся её ловить."
+    me "Ай, колено!"
+    "В результате падения пострадал только я, Ольга же приземлилась мне на руки."
+    me "Ты что творишь? Совсем сдурел?!"
+    me "Ты обещал молчать!"
+    show dev_normal_1 with dspr
+    de "Подумаешь, делов-то! Я, считай, наоборот, тебя выручил! Спас от нудного разговора и промывки мозгов!"
+    me "Помог мне, да? И что мне теперь с этим делать?! У неё обморок!"
+    hide dev_normal_1
+    show dev_dontlike with dspr
+    de "Подумаешь, развёл здесь трагедию!"
+    de "Зато теперь мы точно уверены, не только ты меня видишь и слышишь."
+    show dev_laugh with dspr
+    de "Надо радоваться - я реален!"
+    "Я тяжело вздохнул."
+    me "Лучше бы ты был моей галлюцинацией."
+    window hide
+    hide dev_laugh with dspr
+    $ renpy.pause (1)
+    scene int_house_of_mt_day with fade
+    $ renpy.pause (0.5)
+    window show
+    "Уложив Ольгу на кровать, я начал нервно осматривать комнату."
+    me "Срочно нужна вода!"
+    "Я схватил чайник."
+    me "Пусто!"
+    window hide
+    scene bg ext_house_of_mt_day with dissolve
+    $ renpy.pause (0.5)
+    "Ноги сами вывели меня на улицу."
+    me "Вода, вода... Где много воды?"
+    me "Умывальники!"
+    window hide
+    $ renpy.pause (0.5)
+    scene bg ext_houses_day with dissolve
+    $ renpy.pause (0.5)
+    "Набирая скорость по брусчатой дорожке я едва не столкнулся с Леной."
+    show un surprise pioneer with dspr
+    un "Ой."
+    me "О, Лена, привет, а у меня к тебе есть важный вопрос!"
+    "Должно быть, со стороны я выглядел крайне подозрительно и не вызывал доверия."
+    un "Какой?"
+    me "Что нужно делать, если человек упал в обморок?"
+    show un shy pioneer with dspr
+    un "Не знаю."
+    me "Отлично, Лена, спасибо!... Чёрт."
+    "Я побежал дальше."
+    window hide
+    $ renpy.pause (0.5)
+    scene bg ext_washstand_day with dissolve 
+    $ renpy.pause (1)
+    scene bg ext_washstand2_day with dissolve
+    play sound_loop sfx_open_water_sink
+    $ renpy.pause (2)
+    stop sound_loop
+    stop music fadeout 4
+    scene bg int_house_of_mt_day with fade2
+    $ renpy.pause (1)
+    show dev_serious with dspr
+    window show
+    de "Кажется, я правда слегка переборщил."
+    de "Что с водой будем делать? Не выливать же на неё."
+    hide dev_serious
+    show dev_normal_1 with dspr
+    de "Наверное."
+    me "Сейчас придумаем."
+    hide dev_normal_1 with dspr
+    show dev_serious with dspr
+    de "Ты ведь понятия не имеешь, как вывести человека из обморока."
+    hide dev_serious with dspr
+    window hide
+    scene bg int_house_of_mt_day with fade
+    $ renpy.pause (0.5)
+    window show
+    "Половину чайника я выпил сам, пока ходил по домику в размышлениях."
+    "Так и не придумав ничего действенного, я намочил полотенце ледяной водой и, уложив его на лоб Ольги Дмитриевны, уселся рядом."
+    mt "Семён, что происходит?.."
+    th "Неужели сработало?"
+    me "Вы не помните, как потеряли сознание?"
+    "Она приподнялась с кровати, придерживая полотенце."
+    show mt normal pioneer with dspr
+    mt "Так, помню утро, помню линейку... всё."
+    mt "И ты на ней..."
+    show mt rage pioneer with dspr
+    mt "Ты!"
+    me "Да, да, я."
+    me "Не тратьте силы, отчитать меня всегда успеете."
+    show mt sad pioneer with dspr
+    mt "Успею? Отчитать? Я даже выполнять свою работу не успеваю."
+    show mt normal pioneer with dspr
+    mt "Точно, работа!"
+    mt "Семён, сколько времени?"
+    me "Полдень."
+    show mt shocked pioneer with dspr
+    mt "Уже полдень? У меня много дел!"
+    "Не знаю, что мной двигало в тот момент: чувство вины или просто совесть, но я быстро остановил Ольгу Дмитриевну."
+    me "Куда вы собрались в таком состоянии? Лучше сходите к Виоле или лежите дальше, а я со всем разберусь." #утрястиситуациюсповедением
+    window hide
+    stop ambience
+    scene black with dissolve
+    $ renpy.pause (3)
+    play ambience ambience_camp_center_evening
+    scene bg ext_houses_day with dissolve
+    "Время приближалось к вечеру, а я только-только устало топал в сторону своего дома, кое-как разобравшись со всей сваленной на меня рабтой."
+    window hide
+    $ renpy.pause (0.5)
+    scene bg ext_house_of_sl_day with dissolve
+    $ renpy.pause (0.5)
+    show dev_dontlike with dspr
+    window show
+    de "Не жалеешь, что самолично вызвался на каторгу?"
+    de "Эх, подумать только, целый день нудной работы!"
+    window hide
+    $ renpy.pause (0.5)
+    stop ambience
+    play sound sfx_close_door_campus_1
+    scene bg int_house_of_se_day with dissolve
+    $ renpy.pause (0.5)
+    show dev_dontlike with dspr
+    window show
+    de "Я в жизни так не уставал."
+    me "Ты ничего и не делал."
+    elunderbed "Апчхи!"
+    hide dev_dontlike with dspr
+    me "Какого?.."
+    show el scared pioneer with dspr
+    "Внезапно из под кровати вылез Электроник."
+    th "Что он тут забыл?"
+    me "Могу чем-нибудь помочь?"
+    el "Нет, я просто..."
+    play music music_list["awakening_power"] fadein 2
+    el "Мне пора!"
+    hide el with dspr
+    "Электроник со всех ног ломанулся к выходу."
+    me "А ну стоять, воришка!"
+    play sound sfx_open_door_kick
+    "Когда я выставил руку, дабы преградить ему путь, он ловко прошмыгнул под ней и головой вперёд нырнул в дверной проём." with vpunch
+    "Я был слишком усталый для беготни, поэтому, мне только и оставалось, что горланить угрозы ему вслед."
+    me "Решил украсть мой магнитофон?! Свой накопай!"
+    stop music fadeout 7
+    show dev_normal_1 with dspr
+    de "Правда думаешь, ему понадобилась эта рухлядь?"
+    me "Дошутишься ты у меня скоро, чертовщина телефонная."
+    hide dev_normal_1 with dspr
+    "Я бросился проверять свои вещи."
+    show dev_normal_1 with dspr
+    de "Ставлю сотню бачей на то, что он слышал наш разговор."
+    me "У тебя нет денег, да и в обморок он не упал."
+    de "А почему сразу обморок? Одно дело услышать, другое дело - понять услышанное."
+    me "Странно, все вещи на месте."
+    de "А я о чём говорю."
+    de "Неужели тебе не интересно узнать, что он здесь делал?"
+    de "По коням, его ещё можно догнать!"
+    window hide
+    $ renpy.pause (0.5)
+    play ambience ambience_camp_center_day
+    scene bg ext_houses_day with fade
+    $ renpy.pause (1)
+    window show
+    th "Ну и куда он смылся?"
+    "Я медленно побрёл вперёд, куда глаза глядят."
+    elunderbed "Кхе-кхе."
+    me "Ам?"
+    "Я оглянулся."
+    window hide
+    show sl smile pioneer with dspr
+    window show
+    sl "Куда направляемся?"
+    me "В данный момент вперёд."
+    "Поравнявшись со мной, Славя зашагала рядом."
+    me "Ты случайно не видела Электроника?"
+    sl "Случайно видела, он минуту назад проходил мимо меня."
+    "Я остановился, Славя тоже."
+    me "Не знаешь, куда он пошёл?"
+    sl "Не знаю, но он спрашивал Ольгу Дмитриевну."
+    me "Ольгу Дмитриевну? Интересно, зачем?"
+    sl "Не знаю."
+    me "А она где?"
+    sl "Была на лодочной станции."
+    "На все вопросы Славя отвечала весьма отстранённо, как будто ей не было до них дела."
+    me "Ладно, пойду поищу Электроника там, спасибо."
+    window hide
+    hide sl with dspr
+    $ renpy.pause (0.5)
+    "Полубегом я устремился к месту назначения."
+    sl "Подожди, Семён!"
+    window hide
+    show sl normal pioneer with dspr
+    window show
+    me "Ам?"
+    show sl smile2 pioneer with dspr
+    play music olm_romantic_slavya fadein 4
+    $ volume (0.5,'music')
+    sl "Я вообще-то к тебе пришла."
+    me "Ко мне?"
+    sl "Да."
+    me "Зачем?"
+    sl "Просто хотела тебя похвалить."
+    me "Чем я так успел отличиться?"
+    show sl laugh pioneer with dspr
+    sl "Будто не знаешь."
+    me "На самом деле... нет."
+    sl "Ну как же - выступление!"
+    sl "Ты сразил наповал весь лагерь, все только о тебе и говорят."
+    me "Правда?"
+    show sl smile2 pioneer with dspr
+    sl "Ты так говоришь, словно весь день проспал и не в курсе."
+    th "Проспал, если бы."
+    me "Теперь буду в курсе, спасибо."
+    show sl serious pioneer with dspr
+    sl "Не подумай, что я тебя поощряю, ты действовал против всех правил."
+    sl "Это было неуважительно и неподобающе с твоей стороны."
+    th "Она отчитать меня пришла?"
+    "Разговор начал заходить не в то русло, плюс с каждой секундой у меня всё меньше шансов сцапать Электроника."
+    me "Спасибо на добром слове, в любом случае."
+    me "А я побегу, дела."
+    window hide
+    hide sl with dspr
+    $ renpy.pause (0.5)
+    window show
+    "Я снова зашагал прочь."
+    window hide
+    $ renpy.pause (0.5)
+    window show
+    show sl shy pioneer with dspr
+    sl "Да подожди ты..."
+    me "Ну что ещё?"
+    show sl sad pioneer with dspr
+    sl "Ты так торопишься, я даже договорить не успела."
+    me "Я слушаю."
+    show sl smile2 pioneer with dspr
+    sl "Не смотря на поведение, ты выступал с таким энтузиазмом!"
+    sl "Я была приятно удивлена, честно."
+    sl "К сожалению, у меня с выступлениями на публику всё гораздо сложнее."
+    me "Зря переживаешь. По-моему, ты сегодня отлично справилась."
+    sl "Спасибо, но с тобой не соглашусь."
+    sl "Вот и подумала..."
+    sl "Может быть ты поможешь мне с подготовкой?"
+    sl "Впереди ещё много мероприятий, а я не слишком уверена в своих силах."
+    show sl shy pioneer with dspr
+    sl "Могли бы порепетировать вместе, если ты, конечно, не против..."
+    me "Без проблем, помогу."
+    me "А сейчас извини, мне и правда пора."
+    sl "Обещаешь?"
+    me "Честное пионерское!"
+    window hide
+    stop music fadeout 4
+    $ renpy.pause (1)
+    play ambience ambience_boat_station_day
+    scene bg ext_boathouse_day with fade
+    $ renpy.pause (2)
+    window show
+    $ volume (0.9,'music')
+    "Лодочная станция пустовала."
+    th "Неужто Славя ошиблась?"
+    "Внезапно дверь открылась, Ольга Дмитриевна покидала помещение. Следом за ней плёлся Электроник."
+    th "Блин!"
+    "Не найдя никаких альтернатив я прыгнул с мостка в одну из привязанных лодок и укрылся брезентом."
+    window hide
+    $ renpy.pause (0.5)
+    play sound sfx_bodyfall_1
+    scene black with dissolve
+    $ renpy.pause (0.5)
+    window show
+    de "Какая интимная обстановка."
+    me "Заткнись!"
+    "Из своего укрытия я слышал лишь обрывки разговора."
+    "Было очевидно - речь шла обо мне."
+    "Электроник говорил громко и напряженно, Ольга Дмитриевна отвечала ему коротко и безучастно."
+    el "Говорю вам, с ним что-то не так!"
+    el "Он ни капли не похож на пионера!"
+    el "Вы уверены, что он тот, за кого себя выдаёт?"
+    el "Вам надо проверить его документы!"
+    th "Только детектива-сыщика мне ещё не хватало."
+    th "Похоже, кое-кто настолько сильно хочет победить в этом глупом конкурсе, что готов на любые низости."
+    "Мне стало ужасно неприятно из-за того, как повёл себя Электроник."
+    "Даже не понимаю, что именно меня так задело, но настроение быстро пропало."
+    "Когда все ушли я ещё долгое время молча лежал в этой лодке, не желая банально подняться."
+    "Когда я всё-таки нашёл в себе силы, солнце уже садилось."
+    window hide
+    $ sunset_time ()
+    $ persistent.sprite_time = 'sunset'
+    $ renpy.pause (1)
+    stop ambience
+    play ambience ambience_camp_center_evening
+    scene bg ext_houses_sunset with dissolve2
+    $ renpy.pause (1)
+    window show
+    "Аллея пустовала, что было весьма странным для данного времени суток. Лишь дети резвились неподалёку, гоняя мяч по лужайке."
+    "Я бесцельно бродил по лагерю, погружённый в размышления."
+    show dev_normal_1 with dspr
+    de "Эй, начальник. За нами хвост."
+    me "Да ну? Опять Электроник?"
+    de "Если он внезапно помолодел - тогда да."
+    hide dev_normal_1 with dspr
+    "Я едва заметно обернулся. Перебежками по «укрытиям» за мной следовал какой-то маленький мальчик, по всей видимости, из младшеотрядников."
+    "Я несколько минут водил его кругами, а потом резко спрятался за дерево."
+    "Потеряв меня из виду, мальчик быстро побежал в сторону, где видел меня последний раз."
+    window hide
+    $ renpy.pause (0.5)
+    show ko_normal_pioneer with dspr
+    window show
+    me "БУ!"
+    "Мальчик испуганно отшатнулся."
+    me "Тебе чего надо?"
+    chpi "Я...я... Извини, пожалуйста."
+    me "Выкладывай уже."
+    "Настроение было и без того паршивое, ещё и второй шпион нарисовался."
+    "Моя тяжёлая рука легла ему на плечо."
+    me "Чем быстрее скажешь, тем быстрее отпущу."
+    chpi "Мне Серёжа сказал за тобой следить."
+    th "Опять Электроник? Почему я не удивлён?"
+    me "И ты его послушался? Тебе делать нечего?"
+    me "Разве не знал, что следить за людьми нехорошо?"
+    chpi "Он...он..."
+    "От испуга мальчик начал заикаться."
+    chpi "Он обещал мне конфеты."
+    "Я рассмеялся."
+    me "Ты ведь понимаешь, что в итоге никаких конфет ты бы не получил?"
+    me "Всё ясно."
+    me "А теперь шуруй отсюда."
+    hide ko_normal_pioneer with dspr
+    "Он развернулся и медленно попятился в противоположном направлении."
+    th "Знакомое лицо, кажется теперь я его припоминаю."
+    th "Круглые очки и причёска горшок. Тот самый мальчуган, который пытался подружиться со мной на перовой линейке."
+    "Когда он проходил мимо лужайки и играющих детей, те внезапно начали громко смеяться, показывая на него пальцем."
+    "Мальчик остановился и покраснел, прикрывая свои шорты."
+    "Спереди они были ужасно мокрые."
+    play music music_list["memories"] fadein 3
+    me "Ох, ну твою-то..."
+    th "Это я его так сильно напугал?"
+    "Если до этого момента я был просто зол, то сейчас я был зол на себя."
+    "Я молча подошёл к месту событий и кинул грозный взгляд на малышню. Все тут же замолчали."
+    "Без раздумий я одел на мальчика свои шорты, которые оказались ему довольно велики."
+    "К слову, я остался в одном исподнем."
+    me "Идём."
+    "Он послушно поплёлся за мной."
+    "Когда мы уходили, уже никто не смеялся."
+    window hide
+    $ renpy.pause (1)
+    scene bg ext_wastand_sunset with dissolve
+    $ renpy.pause (1)
+    window show
+    "Мы сидели на поребрике и ждали, пока высохнут постиранные вещи."
+    me "Нельзя верить всем, кто обещает тебе конфеты."
+    show ko_normal_pioneer with dspr
+    chpi "Я думал, он меня не обманывает."
+    chpi "Со мной никто не дружит, а Серёжа сказал будет, если я ему помогу."
+    me "Усвой один очень важный урок."
+    me "Друзьями становятся не за услуги и одолжения."
+    "Мальчик грустно вздохнул."
+    me "Проверь, шорты высохли?"
+    chpi "Да."
+    me "Тогда пойдём обратно."
+    window hide
+    hide ko_normal_pioneer with dspr
+    $ renpy.pause (1)
+    scene bg ext_houses_sunset with dissolve
+    $ renpy.pause (1)
+    show ko_normal_pioneer with dspr
+    window show
+    "Когда мы проходили мимо моего домика, я остановил его."
+    me "Постой здесь."
+    play sound sfx_close_door_campus_1
+    "Я забежал внутрь всего на секунду."
+    me "Вот."
+    "Я протянул мальчику мешок барбарисок."
+    me "Запоминай ещё один урок: неважно как, но обещания должны быть сдержаны."
+    "Он долго не мог поверить своему счастью."
+    chpi "Это мне, да? Правда?"
+    me "Тебе, тебе. И ты теперь мой друг."
+    me "Как тебя зовут?"
+    chpi "Коля."
+    me "Очень приятно, а меня Семён."
+    me "А теперь беги поделись с остальными. Жадничать нехорошо."
+    "Я кивнул на компашку, которая продолжала гонять мяч на лужайке."
+    me "Ну, чего стоишь?"
+    chpi "А если они опять будут смеяться?"
+    me "Поверь мне, не будут."
+    hide ko_normal_pioneer with dspr
+    "Я слегка подтолкнул друга вперёд."
+    me "Топай."
+    window hide
+    $ renpy.pause (1)
+    show blinking with dissolve
+    $ renpy.pause (2)
+    window show
+    "Я ещё долго сидел на скамейке, с улыбкой наблюдая, как дети играли уже всей дружной компанией совместно с их новым другом по имени Коля."
+    show dev_normal_1 with dspr
+    de "Ничего себе, ты даже меня удивил."
+    me "Нечему здесь удивляться."
+    de "Не думал, что скажу это, но из тебя бы вышел отличный вожатый."
+    me "Кто знает."
+    "Я пожал плечами."
+    de "Я тебе серьёзно говорю. Подумай над этим."
+    hide dev_normal_1 with dspr
+    window hide
+    stop music fadeout 5
+    $ renpy.pause (2)
+    stop ambience
+    scene black with dissolve
+    $ renpy.pause (1)
+    window show
+    "Возможно, чертяка прав, и мне действительно стоит что-то изменить в своей жизни."
+    window hide
+    $ renpy.pause (2)
+    $ night_time ()
+    $ persistent.sprite_time = 'night'
+    scene bg int_house_of_se_night
+    window show
+    "За окном царил мрак позднего вечера, но в моей душе мрак рассеялся."
+    "Настроение было наилучшее."
+    "Обычно я бы с удовольствием продолжил лежать, но сегодня мне не сиделось на месте."
+    "Мне захотелось поддаться эмоциям, сделать хоть что-нибудь, лишь бы не торчать в четырёх стенах, не упускать возможности повстречать новые приключения."
+    play ambience ambience_camp_center_night
+    window hide
+    scene bg ext_alley_night with dissolve
+    play music music_list["dance_of_fireflies"] fadein 3
+    $ renpy.pause (0.5)
+    window show
+    "Соскочив с деревянного крылечка, я зашагал вдоль пионерских халуп."
+    "Дуновения полуночного ветра навевали спокойный настрой. Звёзды, пробивающиеся сквозь низкие свинцовые тучи, ярко освещали дорогу."
+    th "Я уверен, дождя не будет. Ему здесь не место."
+    "И хоть вместо приевшегося за циклы полумесяца, на меня смотрело запоздалое полнолуние, вся природа «Совёнка» вела себя так, как и один, и десять, и сто циклов назад."
+    "Только я не мог и не хотел повторять прожитое."
+    "Это полнолуние, гласившее о близком окончании первого месяца лета, не походило у меня ни на какую другую ночь, проведённую в лагере."
+    me "По эту сторону рая как всегда спокойно."
+    window hide
+    $ renpy.pause (1)
+    stop music fadeout 2
+    scene bg ext_house_of_mt_night_without_light with fade2
+    play music olm_romantic_1
+    $ renpy.pause (1)
+    window show
+    "Я застал её спящей, неаккуратно развалившейся прямо на шезлонге."
+    "Лунный свет озарял её каштановые волосы, струился вниз по двум расстёгнутым пуговицам рубашки, еле уловимо пробегал по юбке и заканчивался ровно на той границе, где гладкая кожа переходила в белый чулок."
+    "Вожатая повернулась на бок, а из её разжавшейся ладони выскользнула книга и неряшливо приземлилась в песок."
+    "«Великий Гэтсби» - гласили позолоченные буквы. Даже в темноте я мог разглядеть силуэты кружащейся в ритме вальса пары."
+    th "Какая яркая обложка... Сразу видно: недолго совку осталось."
+    "Я открыл книгу на месте закладки и, облокотившись о шаткую деревянную ставню вожатского домика, принялся читать."
+    window hide
+    $ set_mode_nvl ()
+    $ renpy.pause (1)
+    window show
+    "— Я, видишь ли, думаю, что все равно на свете ничего хорошего нет, — продолжала она убежденно. — И все так думают — даже самые умные, самые передовые люди.{w} А я не только думаю, я знаю. Ведь я везде побывала, все видела, все попробовала.{w} — Она вызывающе сверкнула глазами, совсем как Том, и рассмеялась звенящим, презрительным смехом. — Многоопытная и разочарованная, вот я какая."
+    window hide
+    $ set_mode_adv ()
+    $ renpy.pause (1)
+    window show
+    me "Даже не знаю..."
+    me "Стоит ли измерять счастье количеством пережитых неудач?"
+    me "Особенно, если отсчёт остатка твоей жизни давно не дремлет?"
+    show mt smile pioneer with dspr
+    mt "Нет, если ты сможешь найти своё место в этом мире."
+    th "Я произнёс это вслух?"
+    "Рядом со мной стояла уже нисколько не сонная, как будто весь этот безмятежный морфей на шезлонге мне и вовсе привидился, Ольга Дмитриевна."
+    mt "Осторожно, такие глубокие размышления на ночь глядя вызывают бессонницу."
+    me "То-то я смотрю, вам не спится."
+    show mt laugh pioneer with dspr
+    mt "А мне она не грозит."
+    "Вожатая уж больно грустно усмехнулась."
+    "В момент усмешки, как мне показалось, на её лице промелькнула тень усталости и отчаяния."
+    "Скорее всего просто причудилось, ночь на дворе как-никак."
+    show mt smile pioneer with dspr
+    mt "Ладно, хватит с нас светских бесед о ненасущном."
+    "Она высоко потянулась, отгоняя последние нотки сна."
+    "Под таким давлением тонкая рубашка вожатой сильно натянулась, обводя и повторяя все прекрасные контуры её женственной фигуры."
+    "Я молча наблюдал за этой натурой, боясь нарушить момент."
+    mt "В ближайший час сон мне не грозит, да и тебе тоже."
+    mt "Я иду закрывать служебные помещения и ты мне в этом поможешь."
+    "Прошло только мгновение, а Ольга была уже крайне бодрой и воодушевлённой."
+    th "Жаль, я так не умею."
+    th "Должно быть, она из тех людей, кто с лёгкостью просыпается по первому лучу солнца."
+    th "А я из тех, кто по сто раз переставляет будильник на пять минут позже, торгуясь за драгоценный сон."
+    "Улыбаясь во все тридать два, она достала из кармана связку ключей."
+    me "Всегда вы так..."
+    show mt shocked pioneer with dspr
+    mt "Всегда?"
+    th "Какой идиот, чуть не проговорился."
+    me "Мне кажется, что всегда."
+    show mt laugh pioneer with dspr
+    mt "Если кажется - креститься надо."
+    show mt normal pioneer with dspr
+    mt "Пойдём быстрее, а то до утра так дотянем."
+    stop music fadeout 4
+    window hide
+    $ renpy.pause (0.5)
+    scene bg ext_alley_night with dissolve
+    $ renpy.pause (1)
+    window show
+    "Я не имел ни малейшего понятия о том, с какой целью ОД взяла меня с собой: ей нужен был охранник, грузчик, посыльный, или же она проверяла, гожусь ли я в помощники?"
+    "А вдруг, ей просто было скучно идти одной?"
+    "Теория была из ряда вон, но объяснить иначе, зачем идти вдвоем на дело, с которым справится один, я не мог."
+    me "Странный выбор книги для человека, который занимается патриотическим воспитанием молодёжи."
+    show mt normal pioneer with dspr
+    mt "Так говоришь, будто я строгий надзиратель в колонии."
+    "Вспоминая те времена, сколько раз эта мадам «портила мне отдых», я не знал, что и ответить."
+    me "А вы разве не?"
+    "Фраза прозвучала грубее, чем хотелось бы."
+    "Но в ответ я услышал лишь тихое..."
+    mt "Не знаю."
+    mt "Даже если я, как ты говоришь, строгий надзиратель, значит, по-твоему, я не могу читать художественную литературу?"
+    me "Приключения, романтику и всё в таком духе? Почему нет, можете."
+    show mt smile pioneer with dspr
+    mt "Выходит, не такая я и строгая."
+    mt "Хотя, кое с кем стоило бы..."
+    th "Со мной, видимо."
+    "Я по-доброму усмехнулся."
+    window hide
+    $ renpy.pause (0.5)
+    scene bg ext_wahouse_night with dissolve
+    $ renpy.pause (1)
+    window show
+    "За милыми разговорами ни о чём, я совсем не заметил, как мы подошли к складу."
+    me "Постой."
+    show mt sad pioneer with dspr
+    "Она удивлённо обернулась, но не стала меня перебивать."
+    play music olm_romantic_1
+    me "Я хочу сказать кое-что."
+    me "Боюсь, если не скажу сейчас, то не смогу сказать уже никогда."
+    me "Я испытываю странное влечение."
+    me "Я не знаю, как это объяснить."
+    me "Поэтому... просто..."
+    me "Прости, что иногда был так резок по отношению к тебе."
+    me "Сама знаешь, как бывает: ляпну случайно невесть что, а потом волнуюсь, вдруг случайно обидел."
+    mt "Резок? Семён, тебя ли я слышу?"
+    mt "И ты переживаешь за меня?.."
+    me "Понимаю, ты знаешь меня всего пару дней."
+    me "Но я, за столько времени, за столько циклов впервые додумался обратить на тебя внимание..."
+    hide mt with dspr
+    "Внезапно я почувствовал крепкие объятия."
+    mt "Всё хорошо, Сём, я понимаю."
+    "Её быстрый шёпот щекотал мне ухо."
+    mt "В глубине души ты очень раним и одинок, пусть сам не признаёшь этого. А ещё ты всегда очень внимателен к окружающим."
+    mt "И нет, ты не жестокий, ты просто очерствел за все эти циклы."
+    stop music fadeout 5
+    mt "Я понимаю, я вижу. Тебе больше не нужно притворяться."
+    window hide
+    $ renpy.pause (1)
+    scene bg ext_alley_night with fade2
+    $ renpy.pause (2)
+    window show
+    play music olm_romantic_2 fadein 2
+    "Я проснулся на холодном и жёстком дереве одной из скамеей лагерной аллеи."
+    th "Судя по всему, до склада всё-таки не дошли."
+    th "По крайней мере, я."
+    "Тяжело поднявшись, я устремил взгляд к дальним звёздам."
+    window hide
+    scene anim stars_1 with dissolve
+    $ renpy.pause (0.5)
+    window show
+    th "Если хорошенько подумать, неужели {b}она{/b} мне нравится?"
+    window hide
+    scene bg ext_alley_night with dissolve
+    $ renpy.pause (0.5)
+    window show
+    "Моя голова невольно свесилась вниз, к земле."
+    th "Нет, должно быть, это всего лишь мой ночной бред."
+    window hide
+    $ renpy.pause (1)
+    scene bg int_house_of_se_night_nolight with dissolve
+    stop ambience
+    play sound sfx_close_door_campus_1
+    $ renpy.pause (0.5)
+    window show
+    me "Даже никак не прокомментируешь?"
+    show dev_normal_1 with dspr
+    de "Хватит с тебя на сегодня."
+    de "Стоило вам с Ольгой только отойти от её дома, как ты тут же выключился прямо на ходу."
+    de "Жалкое зрелище, конечно, но ничего не поделать."
+    de "Путь ей, кстати, пришлось продолжать в гордом одиночестве."
+    me "Вот как."
+    me "Ясно..."
+    de "Спи уже, дуралей, завтра тебе предстоит множество дел."
+    de "Будущий {i}«Крутой Вожатый Семён»{/i}."
+    hide dev_normal_1 with dspr
+    me "..."
+    window hide
+    $ renpy.pause (0.5)
+    play sound sfx_bed_squeak1
+    $ renpy.pause (1)
+    play ambience ambience_camp_center_night
+    scene bg ext_house_of_se_night with dissolve
+    $ renpy.pause (2)
+    scene bg ext_square_end_ch_1 with dissolve
+    window show
+    "По эту сторону рая как всегда спокойно."
+    window hide
+    $ renpy.pause (2)
+    scene black with dissolve
+    $ renpy.pause (2)
+    stop ambience
+    stop music fadeout 5
+    $ renpy.pause (5)
+    return

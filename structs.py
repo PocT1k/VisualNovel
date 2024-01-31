@@ -23,12 +23,6 @@ def calculatingSize(windowSize): #Вычисление размеров для �
     #         return (w * ratioStandard, h)
 pass
 
-def calculatingScale(windowSize, pictureSize):
-    newSize = calculatingSize(windowSize)
-    return (pictureSize[0] * newSize[0] / widthStandard,
-            pictureSize[1] * newSize[1] / heightStandard)
-pass
-
 def calculatingZeroPoint(windowSize, newSize):
     w, h = 0, 0
     if windowSize[0] > newSize[0]:
@@ -42,77 +36,72 @@ class FullPicture():
     def __init__(self, window, path, picture, ext, alpha = False):
         self.window = window
 
-        # Загрузка
-        if alpha:
-            self.picture = pygame.image.load(path + picture + ext).convert_alpha()
-        else:
-            self.picture = pygame.image.load(path + picture + ext)
-        self.windowSize = window.get_size()#pygame.display.Info()
-        self.pictureSize = calculatingSize(self.windowSize)
-        self.picture = pygame.transform.scale(self.picture, self.pictureSize)
+        if alpha: self.picture = pygame.image.load(path + picture + ext).convert_alpha() # Загрузка
+        else: self.picture = pygame.image.load(path + picture + ext)
 
-        # Центрирование
-        self.rect = self.picture.get_rect()
+        self.windowSize = window.get_size()#pygame.display.Info() # Определение размеров
+        self.pictureSize = calculatingSize(self.windowSize)
+        self.picture = pygame.transform.scale(self.picture, self.pictureSize) # Масштабирование
+
+        self.rect = self.picture.get_rect() # Центрирование
         self.windowRect = window.get_rect()
         self.rect.center = self.windowRect.center
     pass
 
     def show(self):
         self.window.blit(self.picture, self.rect)
+    pass
 pass
 
 class PartialPicture():
-    def __init__(self, window, path, picture, ext, alpha = False, shiftx = 0.5, shifty = 0.5):
+    def __init__(self, window, path, picture, ext, alpha = False):
         self.window = window
 
-        # Загрузка
-        if alpha:
-            self.picture = pygame.image.load(path + picture + ext).convert_alpha()
-        else:
-            self.picture = pygame.image.load(path + picture + ext)
-        self.windowSize = window.get_size()#pygame.display.Info()
-        self.pictureSize = calculatingSize(self.windowSize)
-        self.newSize = calculatingScale(self.windowSize, self.picture.get_size())
-        self.picture = pygame.transform.scale(self.picture, self.newSize)
+        if alpha: self.picture = pygame.image.load(path + picture + ext).convert_alpha() # Загрузка
+        else: self.picture = pygame.image.load(path + picture + ext)
 
-        # Центрирование
-        self.zeroPoint = calculatingZeroPoint(self.windowSize, self.pictureSize)
+        self.windowSize = window.get_size()#pygame.display.Info() # Определение размеров
+        self.pictureSize = calculatingSize(self.windowSize)
+        self.rect = self.picture.get_rect()
+        self.newSize = (self.rect[2] * self.pictureSize[0] / widthStandard,
+                        self.rect[3] * self.pictureSize[1] / heightStandard)
+        self.picture = pygame.transform.scale(self.picture, self.newSize) # Масштабирование
+
+        self.zeroPoint = calculatingZeroPoint(self.windowSize, self.pictureSize) # Центрирование
         self.rect = self.picture.get_rect()
         self.windowRect = window.get_rect()
-        self.rect.centerx = self.windowRect.left + self.zeroPoint[0] + self.pictureSize[0] * shiftx
-        self.rect.centery = self.windowRect.top + self.zeroPoint[1] + self.pictureSize[1] * shifty
+        self.rect.center = self.windowRect.center
     pass
 
     def show(self, shiftx = 0.5, shifty = 0.5):
-        self.rect.centerx = self.windowRect.left + self.zeroPoint[0] + self.pictureSize[0] * shiftx
-        self.rect.centery = self.windowRect.top + self.zeroPoint[1] + self.pictureSize[1] * shifty
+        self.rect.centerx = self.zeroPoint[0] + self.pictureSize[0] * shiftx
+        self.rect.centery = self.zeroPoint[1] + self.pictureSize[1] * shifty
         self.window.blit(self.picture, self.rect)
+    pass
 pass
 
 class TextMenu():
-    def __init__(self, window, text, alpha = 0, shiftx = 0.5, shifty = 0.5):
+    def __init__(self, window, text, alpha = 255):
         self.window = window
 
-        # Загрузка
-        self.color = (255, 255, 255)
-        self.font = pygame.font.Font(None, 144)
-        self.text = self.font.render(text, True, self.color)
-        if alpha:
-            self.text.set_alpha(alpha)
-        self.windowSize = window.get_size()  # pygame.display.Info()
+        self.windowSize = window.get_size()  # pygame.display.Info() # Определение размеров
         self.pictureSize = calculatingSize(self.windowSize)
+        self.fontSize = int(144 * self.pictureSize[0] / widthStandard)
 
-        # Центрирование
-        self.zeroPoint = calculatingZeroPoint(self.windowSize, self.pictureSize)
+        self.color = (255, 255, 255) # Создание шрифта
+        self.font = pygame.font.Font(None, self.fontSize)
+        self.text = self.font.render(text, True, self.color)
+        self.text.set_alpha(alpha)
+
+        self.zeroPoint = calculatingZeroPoint(self.windowSize, self.pictureSize) # Центрирование
         self.rect = self.text.get_rect()
         self.windowRect = window.get_rect()
-        self.rect.centerx = self.windowRect.left + self.zeroPoint[0] + self.pictureSize[0] * shiftx
-        self.rect.centery = self.windowRect.top + self.zeroPoint[1] + self.pictureSize[1] * shifty
+        self.rect.center = self.windowRect.center
     pass
 
     def show(self, shiftx = 0.5, shifty = 0.5):
-        self.rect.centerx = self.windowRect.left + self.zeroPoint[0] + self.pictureSize[0] * shiftx
-        self.rect.centery = self.windowRect.top + self.zeroPoint[1] + self.pictureSize[1] * shifty
+        self.rect.centerx = self.zeroPoint[0] + self.pictureSize[0] * shiftx
+        self.rect.centery = self.zeroPoint[1] + self.pictureSize[1] * shifty
         self.window.blit(self.text, self.rect)
     pass
 pass
