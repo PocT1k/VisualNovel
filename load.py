@@ -4,6 +4,13 @@ import time
 from structs import *
 from scenes import *
 
+# bool вамРеальноИнтрересно(bool интерес);
+
+# bool вамРеальноИнтрересно(bool интерес) {
+#     if (вамРеальноИнтрересно) {
+#         return вамРеальноИнтрересно(интерес);
+#     }
+# }
 
 def createWindow():
     #window = pygame.display.set_mode((1400.1, 720.2))  # 1920 1080
